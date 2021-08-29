@@ -1,0 +1,900 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;    
+}
+
+@keyframes moveInTop {
+  0% {
+      opacity: 0;
+      transform: translateY(-10rem);
+  }
+
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(10rem);
+  }
+
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+    line-height: 1.6;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+  
+.container {
+    display: grid;
+    grid-template-rows: 8rem 527.8px 100px min-content 614.4px min-content 200px;
+    grid-template-columns: 3rem repeat(3, 1fr);
+    background-color: rgb(24, 37, 58);
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 3rem repeat(2, 1fr);
+  grid-template-rows: 8rem 527.8px  min-content 100px;
+  background: linear-gradient(rgb(16, 28, 49), rgb(80, 102, 141));
+  
+}
+
+.container3 {
+  display: grid;
+  grid-template-columns: 3rem repeat(2, 1fr);
+  grid-template-rows: 8rem 527.8px  min-content 100px;
+  background: linear-gradient(rgb(16, 28, 49), rgb(80, 102, 141));
+}
+
+.container4 {
+  display: grid;
+  grid-template-columns: 3rem repeat(2, 1fr);
+  grid-template-rows: 8rem 1fr;
+  background-color: rgb(16, 28, 49);
+  column-gap: 3rem;
+}
+
+.projectstitle {
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  animation-name: moveInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.mortgagetitle {
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  animation-name: moveInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.speedmaniactitle {
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+  grid-row: 3 / -1;
+  grid-column: 2 / 3;
+}
+
+.moreprojects {
+  justify-self: center;
+  align-content: center;
+  text-align: center;
+}
+.about-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  font-size: 3rem;
+  text-decoration: none;
+  list-style-type: none;
+  grid-row: 1 / 1;
+  grid-column: 2 / -1;
+  color: #c69963;
+  
+  background-color: rgb(16, 28, 49);
+  opacity: 100%;
+  
+}
+
+.about-main2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  font-size: 3rem;
+  text-decoration: none;
+  list-style-type: none;
+  grid-row: 1 / 1;
+  grid-column: 2 / -1;
+  color: #c69963;
+  
+  background-color: rgb(16, 28, 49);
+  opacity: 100%;
+  
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  font-size: 3rem;
+  text-decoration: none;
+  list-style-type: none;
+  grid-row: 1 / 1;
+  grid-column: 2 / 4;
+  color: #c69963;
+  background-color: rgb(16, 28, 49);
+  opacity: 100%;
+ /* If I want a sticky header 
+  position: sticky;
+  top: 0;
+  */
+}
+
+.about2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8rem;
+  font-size: 3rem;
+  text-decoration: none;
+  list-style-type: none;
+  grid-row: 1 / 1;
+  grid-column: 2 / 4;
+  z-index: 200;
+  margin-top: 2px;
+  background-color: rgb(16, 28, 49);
+  opacity: 100%;
+  /* If I want a sticky header 
+  position: sticky;
+  top: 0;
+  */
+}
+
+
+.mortgagepic {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  background-size: cover;
+  justify-self: center;
+  margin-top: 23rem;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+ 
+}
+
+.description {
+  display: grid;
+  grid-row: 2 / 3;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: start;
+  margin-top: 1rem;
+  color: #c69963;
+  padding: 5rem;
+  line-height: 5.5rem;
+  animation-name: moveInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.view{
+  display: flex;
+  margin-top: -22rem;
+  margin-left: 7rem;
+  text-decoration: none;
+  justify-items: center;
+  gap: 5rem; 
+}
+
+.view2 {
+  display: flex;
+  margin-top: -11rem;
+  margin-left: 11rem;
+  text-decoration: none;
+  justify-items: center;
+  gap: 5rem; 
+}
+
+.view3{
+  display: flex;
+  margin-top: -19rem;
+  margin-left: 17rem;
+  text-decoration: none;
+  justify-items: center;
+  gap: 5rem; 
+}
+
+
+.mortgagepic2 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  background-size: cover;
+  justify-self: start;
+  align-self: center;
+  margin-left: 8rem;
+  margin-top: 20rem; 
+  -moz-box-shadow:    0 0 50px #000000;
+  -webkit-box-shadow: 0 0 50px #000000;
+  box-shadow:         0 0 50px #000000; 
+}
+
+.mortgagepic3 {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  background-size: cover;
+  justify-self: start;
+  align-self: center;
+  margin-left: 10rem;
+  margin-top: 27rem; 
+  -moz-box-shadow:    0 0 50px #000000;
+  -webkit-box-shadow: 0 0 50px #000000;
+  box-shadow:         0 0 50px #000000; 
+}
+
+.description2 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: start;
+  margin-top: 15rem;
+  color: #c69963;
+  padding: 2rem;
+  line-height: 5.5rem;
+}
+
+.description3 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: start;
+  margin-top: 22rem;
+  color: #c69963;
+  padding: 2rem;
+  line-height: 5.5rem;
+}
+.imagelogo {
+ justify-self: start;
+ align-self: start;
+ margin-left: 3rem;
+ margin-top: .5rem;
+}
+
+.imagelogo2 {
+  justify-self: start;
+  align-self: start;
+ margin-top: .5rem;
+ margin-left: 3rem;
+}
+.imagelogo2:hover {
+  filter: brightness(200%);
+
+}
+.imagelogo3 {
+  justify-self: start;
+  align-self: start;
+  margin-left: 4.5rem;
+ }
+
+ .imagelogo5 {
+  justify-self: start;
+  align-self: start;
+  margin-left: 4.5rem;
+ }
+ .imagelogo3:hover {
+   filter: brightness(200%);
+ }
+
+.list-grid {
+  display: inline-flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.list-gridv1 {
+  display: inline-flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+
+.list-gridv2 {
+  display: inline-flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-left: 14rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.list-grid li a {
+  color: #c69963;
+  text-decoration: none;
+}
+
+.list-grid li a:hover {
+  display: inline-block;
+  position: relative;
+  color: #0868AC;
+}
+
+.list-grid li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+
+
+.game-descr {
+  display: inline-block;
+  grid-row: 2 / 3;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: start;
+  margin-top: -1rem;
+  color: #c69963;
+  padding: 5rem;
+  line-height: 6.5rem;
+  animation-name: moveInTop;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.game-descr2 {
+  grid-row: 3 / 4;
+  grid-column: 3 / 4;
+  font-size: 3rem;
+  justify-self: center;
+  align-self: center;
+  margin-top: 13rem;
+  color: #c69963;
+  padding: 2rem;
+  line-height: 7rem;
+}
+
+.gamepicture {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+  background-size: cover;
+  justify-self: center;
+  margin-top: 11rem;
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+ 
+}
+
+.secondimage {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  justify-self: start;
+  align-self: center;
+  margin-left: 5rem;
+
+  margin-top: 18rem; 
+  -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+}
+
+.firstimage-mortgage {
+  
+}
+
+.head {
+  display: flex;
+  color: burlywood;
+  font-size: 4rem;
+  justify-self: start;
+  gap: 3rem;
+  animation-name: moveInTop;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+}
+
+.first-section {
+    display: grid;
+    grid-template-rows: 150px 400px;
+    grid-row: 2 / 2;
+    grid-column: 2 / 4;
+    justify-items: center;
+    align-items: center;
+    padding: 3rem;
+    z-index: 30;
+    /* Make text go lower. Make it go higher with negative number*/
+    margin-top: -2rem; 
+    line-height: 8.5rem;
+    margin-right: 4rem;
+ 
+}
+
+.first-section .boy-img {
+  margin-top: 1.8rem;
+  margin-left: -1rem;
+}
+
+.first-section .hi {
+  margin-top: -1rem;
+}
+
+.stack {
+    display: grid;
+    grid-row: 2 / 2;
+    grid-column: 4 / 5;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    z-index: 21;
+    font-size: 8rem;
+    color: #c69963;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-left: -3rem;
+    -moz-box-shadow:    0 0 50px #000000;
+   -webkit-box-shadow: 0 0 50px #000000;
+   box-shadow:         0 0 50px #000000; 
+   animation-name: moveInRight;
+   animation-duration: 1s;
+   animation-timing-function: ease-out;
+}
+
+.devicon-html5-plain:hover {
+  color: #e34c26;
+}
+.devicon-css3-plain:hover {
+  color: #2965f1;
+}
+.devicon-sass-original:hover {
+  color:  #cc6699;
+
+}
+.devicon-javascript-plain:hover {
+  color: #F0DB4F;
+
+}
+.devicon-react-original:hover {
+  color: #61DBFB;
+
+}
+.devicon-csharp-plain:hover {
+  color: purple;
+
+}
+
+
+
+
+
+
+.sidebar {
+    background-color: #c69963;
+    background: linear-gradient(rgb(16, 28, 49), rgb(198, 153, 99));
+    grid-row: 1 / -1;
+}
+
+.sidebar2 {
+  background-color: #c69963;
+  background: linear-gradient(rgb(16, 28, 49), rgb(198, 153, 99));
+  grid-row: 1 / 4;
+}
+
+.middle {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 50%;
+    grid-column: 2 / -1;
+    grid-row: 2 / 2;
+    background-size: cover;
+   
+}
+
+.text {
+    color: #c69963;
+    font-size: 2rem;
+    display: grid;
+    justify-items: center;
+    margin-top: 5rem;
+}
+
+h1 {
+    color: #c69963;
+    z-index: 10;
+    font-size: 4.5rem;
+}
+
+h4 {
+  color: #c69963;
+  font-size: 2.5rem;
+}
+
+
+
+.h3 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+  font-size: 3rem;
+}
+h5{
+    display: inline-block;
+    position: relative;
+    color: #c69963;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  h6{
+    color: #c69963;
+    font-size: 3rem;
+    cursor: pointer;
+  }
+
+  h6:hover {
+    color: #3461c2;
+    display: inline-block;
+    position: relative;
+  }
+  h6::after {
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  }
+  h6:hover::after {
+    transform: scaleX(1);
+  transform-origin: bottom left;
+  }
+
+h5::after {
+  color: #3461c2;
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+h5:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
+.projects {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 2 / -1; 
+    grid-row: 3 / 3;
+    justify-items: center;
+    background-size: cover;
+}
+
+
+
+.title {
+  display: inline-block;
+ 
+    grid-column: 2 / 3;
+    margin-top: 18rem;
+    color: #c69963;
+    font-size: 5rem;
+    font-weight: 400;
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+    animation-name: moveInTop;
+   animation-duration: 1s;
+   animation-timing-function: ease-out;
+}
+
+
+.col{
+display: grid;
+grid-column: 2 / 3;
+grid-row: 4 / 5;
+justify-items: center;
+}
+
+.col2{
+ display: grid;
+ grid-column: 3 / 4;
+ grid-row: 4 / 5;
+ justify-items: center;   
+}
+
+.col3{
+    display: grid;
+    /* In case I want text under with a new row  =>  grid-template-rows: 60% 40%; */
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    justify-items: center;   
+}
+
+.col4 {
+  display: grid;
+grid-column: 2 / 3;
+grid-row: 4 / 5;
+justify-items: center;
+margin-top: -18rem;
+}
+
+  .card{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.4s;
+    margin-top: 20rem;
+    
+  }
+  .card1{
+    filter: brightness(70%);
+    background-image: url(img/marketmoverstest.JPG);
+    -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+  }
+  .card2{
+    filter: brightness(70%);
+
+    background-image: url(img/mortgageupdate.JPG);
+    -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+  }
+  .card3{
+    filter: brightness(70%);
+
+    background-image: url(img/speedmaniacfinal.JPG);
+    -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+  }
+
+  .card1:hover {
+    filter: brightness(100%);
+  }
+  .card2:hover {
+    filter: brightness(100%);  
+  }
+  .card3:hover {
+    filter: brightness(100%);   
+  }
+  .card:hover{
+    transform: translateY(-20px);
+  }
+
+
+
+
+.nav-btn {
+    border: none;
+    border-radius: 0;
+
+    background-color: #fff;
+    height: 2px;
+    width: 4.5rem;
+    margin-top: 4rem;
+    content: "";
+    display: block;
+}
+
+.footer {
+    display: grid;
+    grid-row: 5 / -1;
+    grid-column: 2 / -1;
+
+}
+
+.get-in-touch {
+    color: #c69963;
+    font-size: 3.5rem;
+    display: grid;
+    grid-column: 2 / 3;
+    align-items: start;
+    justify-items: center;
+    font-size: 4rem;
+    margin-left: -3.5rem;
+    margin-top: 9rem;
+}
+
+.footer .get-in-touch {
+  display: flex;
+  justify-content: center;
+}
+
+
+.hear-from {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: repeat(1, 1fr);
+grid-column: 2 / 3;
+grid-row: 5 / 6;
+text-align: center;
+color: #c69963;
+font-size: 2rem;
+margin-top: -5rem;
+padding: 1rem;
+
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 155;
+  text-decoration: underline;
+  text-decoration-color: #c69963;
+  list-style-type: none;
+  margin-left: -5.5rem;
+
+}
+
+
+
+.social {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 6.5rem;
+  margin-top: 1rem;
+  margin-left: -8rem;
+  transition: transform 0.4s;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.social li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.social:hover {
+  transform: translateY(-10px);
+
+}
+
+.fas {
+  font-size: 6rem;
+  margin-left: -2.5rem;
+  transition: transform 0.4s;
+  color: #c69963;
+}
+
+.fas:hover {
+  color:  rgb(61, 100, 167);
+  cursor: pointer;
+  transform: translateY(-5px);
+  
+}
+
+a {
+  text-decoration: none;
+  color: #c69963;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all 0.2s ease;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background-color: #4b5e81;
+
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  margin-top: 5rem;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #7990bb;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background-color: #4b5e81;
+
+}
+.cta:hover svg {
+  transform: translateX(0);
+}
+.cta:active {
+  transform: scale(0.96);
+}
+
+
+
