@@ -442,7 +442,7 @@ li a:hover::after {
   justify-self: start;
   gap: 3rem;
   animation-name: moveInTop;
-  animation-duration: 1.5s;
+  animation-duration: 2.2s;
   animation-timing-function: ease-out;
 }
 
@@ -469,6 +469,9 @@ li a:hover::after {
 
 .first-section .hi {
   margin-top: -1rem;
+  animation-name: moveInTop;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
 }
 
 .stack {
