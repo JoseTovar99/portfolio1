@@ -47,14 +47,16 @@ html {
     display: grid;
     grid-template-rows: 8rem 527.8px 100px min-content 614.4px min-content 200px;
     grid-template-columns: 3rem repeat(3, 1fr);
-    background-color: rgb(24, 37, 58);
+    background-color: #2F2F2F;
+    ;
 }
 
 .container2 {
   display: grid;
   grid-template-columns: 3rem repeat(2, 1fr);
   grid-template-rows: 8rem 527.8px  min-content 100px;
-  background: linear-gradient(rgb(16, 28, 49), rgb(80, 102, 141));
+  background-color: #2F2F2F;
+
   
 }
 
@@ -62,14 +64,16 @@ html {
   display: grid;
   grid-template-columns: 3rem repeat(2, 1fr);
   grid-template-rows: 8rem 527.8px  min-content 100px;
-  background: linear-gradient(rgb(16, 28, 49), rgb(80, 102, 141));
+  background-color: #2F2F2F;
+
 }
 
 .container4 {
   display: grid;
-  grid-template-columns: 3rem repeat(2, 1fr);
+  grid-template-columns: 1rem repeat(2, 1fr);
   grid-template-rows: 8rem 1fr;
-  background-color: rgb(16, 28, 49);
+  background-color: #2F2F2F;
+
   column-gap: 3rem;
 }
 
@@ -113,9 +117,9 @@ html {
   list-style-type: none;
   grid-row: 1 / 1;
   grid-column: 2 / -1;
-  color: #c69963;
+  color: #ffffff;
   
-  background-color: rgb(16, 28, 49);
+  background-color: #212122;
   opacity: 100%;
   
 }
@@ -129,9 +133,8 @@ html {
   list-style-type: none;
   grid-row: 1 / 1;
   grid-column: 2 / -1;
-  color: #c69963;
-  
-  background-color: rgb(16, 28, 49);
+  color: #ffffff;
+  background-color: #212122;
   opacity: 100%;
   
 }
@@ -145,8 +148,9 @@ html {
   list-style-type: none;
   grid-row: 1 / 1;
   grid-column: 2 / 4;
-  color: #c69963;
-  background-color: rgb(16, 28, 49);
+  color: #ffffff;
+  background-color: #212122;
+
   opacity: 100%;
  /* If I want a sticky header 
   position: sticky;
@@ -165,7 +169,8 @@ html {
   grid-column: 2 / 4;
   z-index: 200;
   margin-top: 2px;
-  background-color: rgb(16, 28, 49);
+  background-color: #212122;
+
   opacity: 100%;
   /* If I want a sticky header 
   position: sticky;
@@ -196,7 +201,7 @@ html {
   justify-self: center;
   align-self: start;
   margin-top: 1rem;
-  color: #c69963;
+  color: #ffffff;
   padding: 5rem;
   line-height: 5.5rem;
   animation-name: moveInTop;
@@ -265,7 +270,7 @@ html {
   justify-self: center;
   align-self: start;
   margin-top: 15rem;
-  color: #c69963;
+  color: #ffffff;
   padding: 2rem;
   line-height: 5.5rem;
 }
@@ -277,7 +282,7 @@ html {
   justify-self: center;
   align-self: start;
   margin-top: 22rem;
-  color: #c69963;
+  color: #ffffff;
   padding: 2rem;
   line-height: 5.5rem;
 }
@@ -348,7 +353,7 @@ html {
 }
 
 .list-grid li a {
-  color: #c69963;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -386,7 +391,8 @@ li a:hover::after {
   justify-self: center;
   align-self: start;
   margin-top: -1rem;
-  color: #c69963;
+  color: #fdfdfd;
+  
   padding: 5rem;
   line-height: 6.5rem;
   animation-name: moveInTop;
@@ -401,7 +407,7 @@ li a:hover::after {
   justify-self: center;
   align-self: center;
   margin-top: 13rem;
-  color: #c69963;
+  color: #ffffff;
   padding: 2rem;
   line-height: 7rem;
 }
@@ -431,13 +437,13 @@ li a:hover::after {
     box-shadow:         0 0 50px #000000; 
 }
 
-.firstimage-mortgage {
-  
+.firstimage {
+  margin-top: 50px;
 }
 
 .head {
   display: flex;
-  color: burlywood;
+  color: rgb(255, 255, 255);
   font-size: 4rem;
   justify-self: start;
   gap: 3rem;
@@ -484,7 +490,8 @@ li a:hover::after {
     align-items: center;
     z-index: 21;
     font-size: 8rem;
-    color: #c69963;
+    color: #d3d3d3;
+    background-color: rgb(43, 43, 43);
     margin-top: 3rem;
     margin-right: 3rem;
     margin-left: -3rem;
@@ -496,25 +503,25 @@ li a:hover::after {
    animation-timing-function: ease-out;
 }
 
-.devicon-html5-plain:hover {
+.devicon-html5-plain {
   color: #e34c26;
 }
-.devicon-css3-plain:hover {
+.devicon-css3-plain {
   color: #2965f1;
 }
-.devicon-sass-original:hover {
+.devicon-sass-original {
   color:  #cc6699;
 
 }
-.devicon-javascript-plain:hover {
+.devicon-javascript-plain {
   color: #F0DB4F;
 
 }
-.devicon-react-original:hover {
+.devicon-react-original {
   color: #61DBFB;
 
 }
-.devicon-csharp-plain:hover {
+.devicon-csharp-plain {
   color: purple;
 
 }
@@ -526,13 +533,12 @@ li a:hover::after {
 
 .sidebar {
     background-color: #c69963;
-    background: linear-gradient(rgb(16, 28, 49), rgb(198, 153, 99));
+    background: linear-gradient(rgb(0, 0, 0), rgb(59, 59, 59));
     grid-row: 1 / -1;
 }
 
 .sidebar2 {
-  background-color: #c69963;
-  background: linear-gradient(rgb(16, 28, 49), rgb(198, 153, 99));
+  background: linear-gradient(rgb(0, 0, 0), rgb(59, 59, 59));
   grid-row: 1 / 4;
 }
 
@@ -547,7 +553,7 @@ li a:hover::after {
 }
 
 .text {
-    color: #c69963;
+    color: #ffffff;
     font-size: 2rem;
     display: grid;
     justify-items: center;
@@ -555,13 +561,13 @@ li a:hover::after {
 }
 
 h1 {
-    color: #c69963;
+    color: #ffffff;
     z-index: 10;
     font-size: 4.5rem;
 }
 
 h4 {
-  color: #c69963;
+  color: #ffffff;
   font-size: 2.5rem;
 }
 
@@ -575,37 +581,28 @@ h4 {
 h5{
     display: inline-block;
     position: relative;
-    color: #c69963;
+    color: #ffffff;
     font-size: 3rem;
     cursor: pointer;
   }
 
   h6{
-    color: #c69963;
+    color: #ffc62b;
     font-size: 3rem;
     cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .btnSize {
+    border-radius: 10px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: rgb(0, 0, 0);
+    border: none;
   }
 
   h6:hover {
-    color: #3461c2;
-    display: inline-block;
-    position: relative;
-  }
-  h6::after {
-    content: '';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #0087ca;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
-  }
-  h6:hover::after {
-    transform: scaleX(1);
-  transform-origin: bottom left;
+    color: white;
   }
 
 h5::after {
@@ -645,7 +642,7 @@ h5:hover::after {
  
     grid-column: 2 / 3;
     margin-top: 18rem;
-    color: #c69963;
+    color: #ffffff;
     font-size: 5rem;
     font-weight: 400;
     font-family: 'Josefin Sans';
@@ -758,7 +755,7 @@ margin-top: -18rem;
 }
 
 .get-in-touch {
-    color: #c69963;
+    color: #ffffff;
     font-size: 3.5rem;
     display: grid;
     grid-column: 2 / 3;
@@ -782,7 +779,7 @@ grid-template-rows: repeat(1, 1fr);
 grid-column: 2 / 3;
 grid-row: 5 / 6;
 text-align: center;
-color: #c69963;
+color: #ffffff;
 font-size: 2rem;
 margin-top: -5rem;
 padding: 1rem;
@@ -795,7 +792,7 @@ padding: 1rem;
   justify-content: center;
   z-index: 155;
   text-decoration: underline;
-  text-decoration-color: #c69963;
+  text-decoration-color: #ffffff;
   list-style-type: none;
   margin-left: -5.5rem;
 
@@ -831,7 +828,7 @@ padding: 1rem;
   font-size: 6rem;
   margin-left: -2.5rem;
   transition: transform 0.4s;
-  color: #c69963;
+  color: #ffffff;
 }
 
 .fas:hover {
@@ -843,7 +840,7 @@ padding: 1rem;
 
 a {
   text-decoration: none;
-  color: #c69963;
+  color: #ffffff;
 }
 
 .cta {
@@ -859,7 +856,7 @@ a {
   left: 0;
   display: block;
   border-radius: 28px;
-  background-color: #4b5e81;
+  background-color: #ffffff;
 
   width: 56px;
   height: 56px;
@@ -882,14 +879,14 @@ a {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #7990bb;
+  stroke: #ffffff;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
 }
 .cta:hover:before {
   width: 100%;
-  background-color: #4b5e81;
+  background-color: #ffffff;
 
 }
 .cta:hover svg {
