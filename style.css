@@ -70,7 +70,7 @@ html {
 
 .container4 {
   display: grid;
-  grid-template-columns: 1rem repeat(2, 1fr);
+  grid-template-columns: 3rem repeat(1, 1fr);
   grid-template-rows: 8rem 1fr;
   background-color: #2F2F2F;
 
@@ -360,7 +360,7 @@ html {
 .list-grid li a:hover {
   display: inline-block;
   position: relative;
-  color: #0868AC;
+  color: #f3c11d;
 }
 
 .list-grid li a::after {
@@ -371,7 +371,7 @@ html {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #ebb010;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -540,6 +540,7 @@ li a:hover::after {
 .sidebar2 {
   background: linear-gradient(rgb(0, 0, 0), rgb(59, 59, 59));
   grid-row: 1 / 4;
+  grid-column: 1 / 2;
 }
 
 .middle {
@@ -597,7 +598,7 @@ h5{
     border-radius: 10px;
     height: 50px;
     margin-top: 60px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(29, 29, 29);
     border: none;
   }
 
@@ -606,7 +607,7 @@ h5{
   }
 
 h5::after {
-  color: #3461c2;
+  color: #f3c11d;
   content: '';
   position: absolute;
   width: 100%;
@@ -614,7 +615,7 @@ h5::after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0087ca;
+  background-color: #f3c11d;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -677,9 +678,10 @@ justify-items: center;
 
 .col4 {
   display: grid;
-grid-column: 2 / 3;
+grid-column: 2/ 3;
 grid-row: 4 / 5;
 justify-items: center;
+text-align: center;
 margin-top: -18rem;
 }
 
@@ -828,7 +830,7 @@ padding: 1rem;
   font-size: 6rem;
   margin-left: -2.5rem;
   transition: transform 0.4s;
-  color: #ffffff;
+  color: #f3b632;
 }
 
 .fas:hover {
