@@ -201,7 +201,7 @@ html {
   font-size: 3rem;
   justify-self: center;
   align-self: start;
-  margin-top: 1rem;
+  margin-top: -4rem;
   color: #ffffff;
   padding: 5rem;
   line-height: 5.5rem;
@@ -442,6 +442,10 @@ li a:hover::after {
   margin-top: 50px;
 }
 
+.firstimage-mortgage {
+  margin-top: 40px;
+}
+
 .head {
   display: flex;
   color: rgb(255, 255, 255);
@@ -506,35 +510,56 @@ li a:hover::after {
 
 .devicon-html5-plain {
   color: #e34c26;
+  font-size: 9.5rem;
 }
 .devicon-css3-plain {
   color: #2965f1;
+  font-size: 9.5rem;
+
 }
 .devicon-sass-original {
   color:  #cc6699;
+  font-size: 9.5rem;
 
 }
 .devicon-javascript-plain {
   color: #F0DB4F;
+  font-size: 9.5rem;
 
 }
 .devicon-react-original {
   color: #61DBFB;
+  font-size: 9.5rem;
 
 }
 .devicon-csharp-plain {
   color: purple;
+  font-size: 9.5rem;
 
 }
 
+.devicon-linkedin-plain {
+  color: #f3b632;
+}
 
+.devicon-linkedin-plain:hover {
+  color: white;
+}
+
+.devicon-github-original-wordmark {
+  color: #f3b632;
+}
+
+.devicon-github-original-wordmark:hover {
+  color: white;
+}
 
 
 
 
 .sidebar {
     background-color: #c69963;
-    background: linear-gradient(rgb(0, 0, 0), rgb(59, 59, 59));
+    background: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
     grid-row: 1 / -1;
 }
 
@@ -601,6 +626,11 @@ h5{
     margin-top: 60px;
     background-color: rgb(29, 29, 29);
     border: none;
+    transition: transform 0.5s ease;
+  }
+
+  .btnSize:hover {
+    transform: translateY(-5px);
   }
 
   h6:hover {
@@ -699,14 +729,12 @@ margin-top: -18rem;
     
   }
   .card1{
-    filter: brightness(70%);
     background-image: url(img/marketmoverstest.JPG);
     -moz-box-shadow:    0 0 50px #000000;
     -webkit-box-shadow: 0 0 50px #000000;
     box-shadow:         0 0 50px #000000; 
   }
   .card2{
-    filter: brightness(70%);
 
     background-image: url(img/mortgageupdate.JPG);
     -moz-box-shadow:    0 0 50px #000000;
@@ -714,7 +742,6 @@ margin-top: -18rem;
     box-shadow:         0 0 50px #000000; 
   }
   .card3{
-    filter: brightness(70%);
 
     background-image: url(img/speedmaniacfinal.JPG);
     -moz-box-shadow:    0 0 50px #000000;
@@ -764,6 +791,7 @@ margin-top: -18rem;
     grid-column: 2 / 3;
     align-items: start;
     justify-items: center;
+    text-align: center;
     font-size: 4rem;
     margin-left: -3.5rem;
     margin-top: 9rem;
@@ -772,6 +800,7 @@ margin-top: -18rem;
 .footer .get-in-touch {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 
@@ -835,7 +864,7 @@ padding: 1rem;
 }
 
 .fas:hover {
-  color:  rgb(61, 100, 167);
+  color:  white;
   cursor: pointer;
   transform: translateY(-5px);
   
