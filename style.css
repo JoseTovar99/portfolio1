@@ -93,6 +93,7 @@ html {
   animation-name: moveInTop;
   animation-duration: 1s;
   animation-timing-function: ease-out;
+  grid-column: 2 / 3;
 }
 
 .speedmaniactitle {
@@ -539,7 +540,7 @@ li a:hover::after {
 
 .sidebar2 {
   background: linear-gradient(rgb(0, 0, 0), rgb(59, 59, 59));
-  grid-row: 1 / 4;
+  grid-row: 1 / 5;
   grid-column: 1 / 2;
 }
 
