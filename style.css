@@ -48,7 +48,8 @@ html {
     grid-template-rows: 8rem 527.8px 100px min-content 614.4px min-content 200px;
     grid-template-columns: 3rem repeat(3, 1fr);
     background-color: #2F2F2F;
-    ;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .container2 {
@@ -120,7 +121,7 @@ html {
   /* To remove the sidebar just make grid-column: 1 / -1 */
   grid-column: 1 / -1;
   color: #ffffff;
-  
+  z-index: 500;
   background-color: #171718;
   opacity: 100%;
   
@@ -138,7 +139,7 @@ html {
   color: #ffffff;
   background-color: #171718;
   opacity: 100%;
-  
+  z-index: 500;
 }
 
 .about {
@@ -792,7 +793,7 @@ margin-top: -18rem;
     display: grid;
     grid-row: 5 / -1;
     grid-column: 2 / -1;
-
+    text-align: center;
 }
 
 .get-in-touch {
