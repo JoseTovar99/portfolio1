@@ -53,7 +53,7 @@ html {
 
 .container2 {
   display: grid;
-  grid-template-columns: 3rem repeat(2, 1fr);
+  grid-template-columns: .1rem repeat(2, 1fr);
   grid-template-rows: 8rem 527.8px  min-content 100px;
   background-color: #2F2F2F;
 
@@ -62,7 +62,7 @@ html {
 
 .container3 {
   display: grid;
-  grid-template-columns: 3rem repeat(2, 1fr);
+  grid-template-columns: .1rem repeat(2, 1fr);
   grid-template-rows: 8rem 527.8px  min-content 100px;
   background-color: #2F2F2F;
 
@@ -118,7 +118,7 @@ html {
   list-style-type: none;
   grid-row: 1 / 1;
   /* To remove the sidebar just make grid-column: 1 / -1 */
-  grid-column: 2 / -1;
+  grid-column: 1 / -1;
   color: #ffffff;
   
   background-color: #171718;
@@ -290,7 +290,7 @@ html {
 .imagelogo {
  justify-self: start;
  align-self: start;
- margin-left: 3rem;
+ margin-left: 6rem;
  margin-top: .5rem;
 }
 
@@ -298,7 +298,7 @@ html {
   justify-self: start;
   align-self: start;
  margin-top: .5rem;
- margin-left: 3rem;
+ margin-left: 5rem;
 }
 .imagelogo2:hover {
   filter: brightness(200%);
@@ -509,7 +509,7 @@ li a:hover::after {
    -webkit-box-shadow: 0 0 50px #000000;
    box-shadow:         0 0 50px #000000; 
     */
-    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(104, 98, 98, 0.2);
    animation-name: moveInRight;
    animation-duration: 1s;
    animation-timing-function: ease-out;
@@ -568,14 +568,14 @@ li a:hover::after {
     background-color: #c69963;
     background: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
     grid-row: 1 / 9;
-    z-index: 150;
+    z-index: -1;
 }
 
 .sidebar2 {
   background: linear-gradient(rgb(0, 0, 0), rgb(59, 59, 59));
   grid-row: 1 / 5;
   grid-column: 1 / 2;
-  z-index: 100;
+  z-index: -1;
 }
 
 .text {
@@ -629,8 +629,19 @@ h5{
   }
 
   .btnSize:hover {
-    transform: translateY(-5px);
+    transform: translateY(-1px);
     border-color: #f3c11d;
+  }
+
+  .techStack {
+    display:inline-block;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: rgb(29, 29, 29);
+    border: solid;
+    color: #f3b632;
+    margin-top: 30px;
+    padding: 5px 10px;
   }
 
   h6:hover {
