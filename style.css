@@ -117,10 +117,11 @@ html {
   text-decoration: none;
   list-style-type: none;
   grid-row: 1 / 1;
+  /* To remove the sidebar just make grid-column: 1 / -1 */
   grid-column: 2 / -1;
   color: #ffffff;
   
-  background-color: #212122;
+  background-color: #171718;
   opacity: 100%;
   
 }
@@ -135,7 +136,7 @@ html {
   grid-row: 1 / 1;
   grid-column: 1 / -1;
   color: #ffffff;
-  background-color: #212122;
+  background-color: #171718;
   opacity: 100%;
   
 }
@@ -149,7 +150,7 @@ html {
   grid-row: 1 / 1;
   grid-column: 2 / 4;
   color: #ffffff;
-  background-color: #212122;
+  background-color: #171718;
 
   opacity: 100%;
  /* If I want a sticky header 
@@ -169,7 +170,7 @@ html {
   grid-column: 2 / 4;
   z-index: 200;
   margin-top: 2px;
-  background-color: #212122;
+  background-color: #171718;
 
   opacity: 100%;
   /* If I want a sticky header 
@@ -306,7 +307,7 @@ html {
 .imagelogo3 {
   justify-self: start;
   align-self: start;
-  margin-left: 4.5rem;
+  margin-left: 6.5rem;
  }
 
  .imagelogo5 {
@@ -499,13 +500,16 @@ li a:hover::after {
     z-index: 21;
     font-size: 8rem;
     color: #d3d3d3;
-    background-color: rgb(43, 43, 43);
+    background-color: #2F2F2F;
     margin-top: 3rem;
     margin-right: 3rem;
     margin-left: -3rem;
+    /* Make square box in home page for tech stack
     -moz-box-shadow:    0 0 50px #000000;
    -webkit-box-shadow: 0 0 50px #000000;
    box-shadow:         0 0 50px #000000; 
+    */
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
    animation-name: moveInRight;
    animation-duration: 1s;
    animation-timing-function: ease-out;
@@ -563,7 +567,8 @@ li a:hover::after {
 .sidebar {
     background-color: #c69963;
     background: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
-    grid-row: 1 / -1;
+    grid-row: 1 / 9;
+    z-index: 150;
 }
 
 .sidebar2 {
@@ -571,16 +576,6 @@ li a:hover::after {
   grid-row: 1 / 5;
   grid-column: 1 / 2;
   z-index: 100;
-}
-
-.middle {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: 50%;
-    grid-column: 2 / -1;
-    grid-row: 2 / 2;
-    background-size: cover;
-   
 }
 
 .text {
@@ -798,7 +793,7 @@ margin-top: -18rem;
     justify-items: center;
     text-align: center;
     font-size: 4rem;
-    margin-left: -3.5rem;
+    margin-left: -7.5rem;
     margin-top: 9rem;
 }
 
@@ -820,7 +815,7 @@ color: #ffffff;
 font-size: 2rem;
 margin-top: -5rem;
 padding: 1rem;
-
+margin-left: -3rem;
 }
 
 .email {
@@ -933,5 +928,13 @@ a {
   transform: scale(0.96);
 }
 
+.copyright {
+    display: grid;
+    grid-column: 1 / -1;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    background-color: #1f1f1f;
+    color: #fff;
 
-
+}
