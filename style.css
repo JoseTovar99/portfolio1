@@ -440,6 +440,10 @@ li a:hover::after {
 
 .firstimage {
   margin-top: 50px;
+  -moz-box-shadow:    0 0 50px #000000;
+    -webkit-box-shadow: 0 0 50px #000000;
+    box-shadow:         0 0 50px #000000; 
+ 
 }
 
 .firstimage-mortgage {
@@ -615,7 +619,7 @@ h5{
 
   h6{
     color: #ffc62b;
-    font-size: 3rem;
+    font-size: 2.5rem;
     cursor: pointer;
     margin-top: 10px;
   }
@@ -625,12 +629,13 @@ h5{
     height: 50px;
     margin-top: 60px;
     background-color: rgb(29, 29, 29);
-    border: none;
+    border: solid ;
     transition: transform 0.5s ease;
   }
 
   .btnSize:hover {
     transform: translateY(-5px);
+    border-color: #f3c11d;
   }
 
   h6:hover {
