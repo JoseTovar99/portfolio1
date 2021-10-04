@@ -87,6 +87,10 @@ html {
   animation-timing-function: ease-out;
 }
 
+.projectstitle h1 {
+  color: #ffc62b;
+}
+
 .mortgagetitle {
   justify-self: center;
   align-content: center;
@@ -97,12 +101,21 @@ html {
   grid-column: 2 / 3;
 }
 
+.mortgagetitle h1 {
+  color: #ffc62b;
+}
+
 .speedmaniactitle {
   justify-self: center;
   align-content: center;
   text-align: center;
   grid-row: 3 / -1;
   grid-column: 2 / 3;
+}
+
+.speedmaniactitle h1 {
+  color: #ffc62b;
+
 }
 
 .moreprojects {
@@ -394,12 +407,12 @@ li a:hover::after {
   align-self: start;
   margin-top: -1rem;
   color: #fdfdfd;
-  
   padding: 5rem;
   line-height: 6.5rem;
   animation-name: moveInTop;
   animation-duration: 1s;
   animation-timing-function: ease-out;
+  
 }
 
 .game-descr2 {
@@ -460,6 +473,10 @@ li a:hover::after {
   animation-name: moveInTop;
   animation-duration: 2.2s;
   animation-timing-function: ease-out;
+}
+
+.head h2 {
+  color: #ffc62b;
 }
 
 .first-section {
@@ -742,23 +759,17 @@ margin-top: -18rem;
   }
   .card1{
     background-image: url(img/marketmoverstest.JPG);
-    -moz-box-shadow:    0 0 50px #000000;
-    -webkit-box-shadow: 0 0 50px #000000;
-    box-shadow:         0 0 50px #000000; 
+     
   }
   .card2{
 
     background-image: url(img/mortgageupdate.JPG);
-    -moz-box-shadow:    0 0 50px #000000;
-    -webkit-box-shadow: 0 0 50px #000000;
-    box-shadow:         0 0 50px #000000; 
+  
   }
   .card3{
 
     background-image: url(img/speedmaniacfinal.JPG);
-    -moz-box-shadow:    0 0 50px #000000;
-    -webkit-box-shadow: 0 0 50px #000000;
-    box-shadow:         0 0 50px #000000; 
+   
   }
 
   .card1:hover {
@@ -772,6 +783,8 @@ margin-top: -18rem;
   }
   .card:hover{
     transform: translateY(-20px);
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(104, 98, 98, 0.2);
+
   }
 
 
