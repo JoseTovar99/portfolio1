@@ -199,7 +199,7 @@ html {
   grid-column: 3 / 4;
   background-size: cover;
   justify-self: center;
-  margin-top: 23rem;
+  margin-top: 21rem;
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-timing-function: ease-out;
@@ -222,6 +222,11 @@ html {
   animation-name: moveInTop;
   animation-duration: 1s;
   animation-timing-function: ease-out;
+}
+
+.description h1 {
+  color: #ffc62b;
+  margin-top: 5rem;
 }
 
 .view{
@@ -405,7 +410,7 @@ li a:hover::after {
   font-size: 3rem;
   justify-self: center;
   align-self: start;
-  margin-top: -1rem;
+  margin-top: -3.5rem;
   color: #fdfdfd;
   padding: 5rem;
   line-height: 6.5rem;
@@ -413,6 +418,10 @@ li a:hover::after {
   animation-duration: 1s;
   animation-timing-function: ease-out;
   
+}
+
+.game-descr h1 {
+  color: #ffc62b;
 }
 
 .game-descr2 {
@@ -694,6 +703,19 @@ h5:hover::after {
     grid-row: 3 / 3;
     justify-items: center;
     background-size: cover;
+}
+
+.col h5:hover {
+  color: #ffc62b;
+}
+
+.col2 h5:hover {
+  color: #ffc62b;
+}
+
+.col3 h5:hover {
+  color: #ffc62b;
+
 }
 
 
