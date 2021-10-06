@@ -95,8 +95,9 @@ html {
 }
 
 .projectstitle h1 {
-  color: #ffc62b;
+  color: white;
   text-decoration: underline;
+  text-decoration-color: #ffc62b;
   text-underline-offset: .5rem;
 }
 
@@ -117,8 +118,10 @@ html {
 }
 
 .mortgagetitle h1 {
-  color: #ffc62b;
+  color: white;
   text-decoration: underline;
+  text-decoration-color: #ffc62b;
+
   text-underline-offset: 1rem;
 }
 
@@ -135,8 +138,10 @@ html {
 }
 
 .speedmaniactitle h1 {
-  color: #ffc62b;
+  color: white;
   text-decoration: underline;
+  text-decoration-color: #ffc62b;
+
   text-underline-offset: 1rem;
 }
 
@@ -1028,10 +1033,6 @@ a {
 
 }
 
-.githubCheck .btnSize {
-  display: grid;
-  grid-column: 3 / -1;
-  text-align: center;
-  justify-self: center;
-  align-items: center;
+.copyright p {
+  margin-left: 5rem;
 }
