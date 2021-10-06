@@ -87,8 +87,17 @@ html {
   animation-timing-function: ease-out;
 }
 
+.projectstitle .btnSize {
+  margin-top: -2rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .projectstitle h1 {
   color: #ffc62b;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
 }
 
 .mortgagetitle {
@@ -103,6 +112,8 @@ html {
 
 .mortgagetitle h1 {
   color: #ffc62b;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
 }
 
 .speedmaniactitle {
@@ -115,7 +126,8 @@ html {
 
 .speedmaniactitle h1 {
   color: #ffc62b;
-
+  text-decoration: underline;
+  text-underline-offset: 1rem;
 }
 
 .moreprojects {
@@ -991,4 +1003,12 @@ a {
     background-color: #1f1f1f;
     color: #fff;
 
+}
+
+.githubCheck .btnSize {
+  display: grid;
+  grid-column: 3 / -1;
+  text-align: center;
+  justify-self: center;
+  align-items: center;
 }
