@@ -354,12 +354,14 @@ html {
   justify-self: start;
   align-self: start;
   margin-left: 6.5rem;
+  margin-top: .5rem;
  }
 
  .imagelogo5 {
   justify-self: start;
   align-self: start;
   margin-left: 4.5rem;
+  margin-top: .5rem;
  }
  .imagelogo3:hover {
    filter: brightness(200%);
