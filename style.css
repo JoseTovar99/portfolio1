@@ -835,6 +835,19 @@ margin-top: -18rem;
 
   }
 
+  .projectstitle .card:hover {
+    transform: translateY(-2px);
+  }
+
+  .mortgagetitle .card:hover {
+    transform: translateY(-2px);
+
+  }
+
+  .speedmaniactitle .card:hover {
+    transform: translateY(-2px);
+
+  }
 
 
 
