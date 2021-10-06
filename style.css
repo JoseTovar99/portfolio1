@@ -573,19 +573,23 @@ li a:hover::after {
 }
 
 .devicon-linkedin-plain {
-  color: #f3b632;
+  color: white;
+
 }
 
 .devicon-linkedin-plain:hover {
-  color: white;
+  color: #f3b632;
+
 }
 
 .devicon-github-original-wordmark {
-  color: #f3b632;
+  color: white;
+
 }
 
 .devicon-github-original-wordmark:hover {
-  color: white;
+  color: #f3b632;
+
 }
 
 
@@ -871,7 +875,8 @@ margin-left: -3rem;
   justify-content: center;
   z-index: 155;
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: #ffc62b;
+  text-underline-offset: .5rem;
   list-style-type: none;
   margin-left: -5.5rem;
 
@@ -907,11 +912,13 @@ margin-left: -3rem;
   font-size: 6rem;
   margin-left: -2.5rem;
   transition: transform 0.4s;
-  color: #f3b632;
+  color:  white;
+
 }
 
 .fas:hover {
-  color:  white;
+  color: #f3b632;
+
   cursor: pointer;
   transform: translateY(-5px);
   
