@@ -88,7 +88,7 @@ html {
 }
 
 .projectstitle .btnSize {
-  margin-top: -2rem;
+  margin-top: -1rem;
   font-size: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -110,6 +110,12 @@ html {
   grid-column: 2 / 3;
 }
 
+.mortgagetitle .btnSize {
+  margin-top: -.1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 .mortgagetitle h1 {
   color: #ffc62b;
   text-decoration: underline;
@@ -122,6 +128,10 @@ html {
   text-align: center;
   grid-row: 3 / -1;
   grid-column: 2 / 3;
+}
+
+.speedmaniactitle .btnSize {
+  margin-top: -.1rem;
 }
 
 .speedmaniactitle h1 {
