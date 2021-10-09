@@ -738,6 +738,12 @@ h5:hover::after {
     background-size: cover;
 }
 
+.projects .title {
+  color: #ffc62b;
+
+}
+
+
 .col h5:hover {
   color: #ffc62b;
 }
@@ -878,7 +884,7 @@ margin-top: -18rem;
 }
 
 .get-in-touch {
-    color: #ffffff;
+    color: #ffc62b;
     font-size: 3.5rem;
     display: grid;
     grid-column: 2 / 3;
@@ -1038,3 +1044,4 @@ a {
 .copyright p {
   margin-left: 5rem;
 }
+
