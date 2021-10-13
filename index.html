@@ -8,7 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    
     <script src="https://use.fontawesome.com/646c11eacc.js"></script>
     <title>Jose Tovar | Web Designer & Front End Developer</title>
 
@@ -187,7 +189,7 @@
             
             <div class="imagelogo">
                 <a href="index.html">
-            <img src="img/logo.png" alt="logopic" style="width:70px; height:70px;" >
+            <img src="img/logo.png" alt="logopic" style="width:70px; height:70px;">
                 </a>
             </div>
 
@@ -217,12 +219,12 @@
         </div>
 
         <div id="projects" class="projects">
-            <div class="title">
+            <div data-aos="fade-up" data-aos-duration="1000" class="title">
                 Projects
             </div>
         </div>
 
-        <div class="col">
+        <div data-aos="fade-up" data-aos-duration="1000" class="col">
             <a href="project1.html" class="card card1">
             </a>
             <a href="project1.html">
@@ -230,7 +232,7 @@
             </a>
         </div>
 
-        <div class="col2">
+        <div data-aos="fade-up" data-aos-duration="1000" class="col2">
             <a href="project2.html" class="card card2">
             </a>
             <a href="project2.html">
@@ -238,19 +240,19 @@
             </a>
         </div>
 
-        <div class="col3">
+        <div data-aos="fade-up" data-aos-duration="1000" class="col3">
             <a href="project3.html" class="card card3">
             </a>
             <h5>Speed Maniac</h5>
         </div>
 
         <footer class="footer">
-            <div class="get-in-touch">
+            <div data-aos="fade-up" data-aos-duration="1000" class="get-in-touch">
 
             <h3>Get In Touch</h3>
 
             </div>
-            <div id="contact" class="hear-from">
+            <div data-aos="fade-right" data-aos-duration="1000" id="contact" class="hear-from">
                 <h1>I'd love to hear from you, whether you'd like to discuss new<br>opportunities, get to know more about my projects, or a simple chat!</h1>
                 
                 <ul class="email">
@@ -286,6 +288,12 @@
         </div>
     </div>
     
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          once: true
+      });
+      </script>
     <script src="https://unpkg.com/typeit@8.0.1/dist/index.umd.js"></script>
     <script src="main.js"></script>
 </body>
