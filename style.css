@@ -686,6 +686,126 @@ footer {
   }
 }
 
+@media (max-width: 500px) { 
+  .card1 {
+    height: 350px;
+    width: 350px;
+  }
+  .textContent {
+    margin-top: -2rem;
+  }
+  .textContent h1 {
+    font-size: .8rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent h3 {
+    font-size: .6rem;
+  }
+  .textContentBtn {
+    font-size: .5rem;
+  }
+  .textContent .fullWidth {
+    font-size: .7rem;
+    margin-top: 1.6rem;
+  }
+  .cards .card2 {
+    height: 350px;
+    width: 350px;
+  }
+  .textContent2 {
+    margin-top: -2rem;
+  }
+  .textContent2 h1 {
+    font-size: .8rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent2 h3 {
+    font-size: .6rem;
+  }
+  .textContentBtn {
+    font-size: .5rem;
+  }
+  .textContent2 .fullWidth {
+    font-size: .7rem;
+    margin-top: 3.6rem;
+  }
+
+  .cards .card3 {
+    height: 350px;
+    width: 350px;
+  }
+  .textContent3 {
+    margin-top: -2rem;
+  }
+  .textContent3 h1 {
+    font-size: .8rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent3 h3 {
+    font-size: .6rem;
+  }
+  .textContentBtn {
+    font-size: .5rem;
+  }
+  .textContent3 .fullWidth {
+    font-size: .7rem;
+    margin-top: 4.8rem;
+  }
+
+  .cards .card4 {
+    height: 350px;
+    width: 350px;
+  }
+  .textContent4 {
+    margin-top: -2rem;
+  }
+  .textContent4 h1 {
+    font-size: .8rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent4 h3 {
+    font-size: .6rem;
+  }
+  .textContentBtn .btnStyleNew {
+    font-size: .5rem;
+
+  }
+  .textContent4 .fullWidth {
+    font-size: .7rem;
+    margin-top: 4rem;
+  }
+
+  .techList {
+    gap: 2rem;
+  }
+
+}
+
+@media (max-width: 450px) { 
+  .about-list li a {
+    font-size: .7rem;
+  }
+  .imagelogo {
+    transform: scale(.7);
+  }
+  .projectTitle {
+    font-size: 1rem;
+  }
+  .techStack .title {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) { 
+  .contactLinks .interest {
+    font-size: .5rem;
+  }
+  .contactLinks {
+    font-size: 2rem;
+  }
+}
+
+
 
 
 
