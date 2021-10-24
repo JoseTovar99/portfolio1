@@ -575,6 +575,77 @@ footer {
   }
 }
 
+@media (max-width: 709px) {
+  .dark-light {
+    display: none;
+  }
+  .about-list {
+    text-align: center;
+    margin-right: 4rem;
+  }
+  .card1 {
+    height: 500px;
+    width: 500px;
+  }
+  .textContent {
+    margin-top: -1rem;
+  }
+  .textContent h1 {
+    font-size: 1rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent h3 {
+    font-size: .8rem;
+  }
+  .cards .card2 {
+    height: 500px;
+    width: 500px;
+  }
+  .textContent2 {
+    margin-top: .5rem;
+  }
+  .textContent2 h1 {
+    font-size: 1rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent2 h3 {
+    font-size: .8rem;
+  }
+
+  .cards .card3 {
+    height: 500px;
+    width: 500px;
+  }
+  .textContent3 {
+    margin-top: .5rem;
+  }
+  .textContent3 h1 {
+    font-size: 1rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent3 h3 {
+    font-size: .8rem;
+  }
+
+  .cards .card4 {
+    height: 500px;
+    width: 500px;
+  }
+  .textContent4 {
+    margin-top: 1.2rem;
+  }
+  .textContent4 h1 {
+    font-size: 1rem;
+    text-underline-offset: .2rem;
+  }
+  .textContent4 h3 {
+    font-size: .8rem;
+  }
+
+  
+
+}
+
 
 
 
