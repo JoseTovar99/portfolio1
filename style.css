@@ -703,10 +703,13 @@ footer {
   }
   .textContentBtn {
     font-size: .5rem;
+    
   }
   .textContent .fullWidth {
     font-size: .7rem;
-    margin-top: 1.6rem;
+    margin-top: .1rem;
+    color: black;
+
   }
   .cards .card2 {
     height: 350px;
@@ -727,7 +730,8 @@ footer {
   }
   .textContent2 .fullWidth {
     font-size: .7rem;
-    margin-top: 3.6rem;
+    margin-top: 3rem;
+    color: black;
   }
 
   .cards .card3 {
@@ -749,7 +753,9 @@ footer {
   }
   .textContent3 .fullWidth {
     font-size: .7rem;
-    margin-top: 4.8rem;
+    margin-top: 3.5rem;
+    color: black;
+
   }
 
   .cards .card4 {
@@ -768,11 +774,14 @@ footer {
   }
   .textContentBtn .btnStyleNew {
     font-size: .5rem;
+    color: black;
 
   }
   .textContent4 .fullWidth {
     font-size: .7rem;
-    margin-top: 4rem;
+    margin-top: 2.5rem;
+    color: black;
+
   }
 
   .techList {
