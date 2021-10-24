@@ -1,4 +1,540 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
 
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: #2F2F2F;
+}
+.imagelogo {
+  padding-left: 20px;
+}
+.about-list {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  gap: 2rem;
+}
+.about-list li a:hover {
+  color: #ffc62b;
+  transition: all 0.3s ease 0s;
+
+}
+
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.dark-light {
+  color: white;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+}
+.dark-light a {
+  text-decoration: none;
+}
+
+.dark-light .devicon-linkedin-plain:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+
+}
+.dark-light .devicon-linkedin-plain {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.dark-light .devicon-github-original:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+
+}
+.dark-light .devicon-github-original {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.about-section {
+  display: flex;
+  color: white;
+  justify-content: center;
+  padding-left: 50px;
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+.jose {
+  font-weight: bolder;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: .5rem;
+}
+.hiThere {
+  color: black;
+}
+
+.textAbout .description {
+  font-weight: lighter;
+}
+.personLogo {
+  margin-top: 3rem;
+}
+.btnStyle {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-size: 1rem;
+  padding: 10px 25px;
+}
+.btnStyle:hover {
+  background-color: #ffa115;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+}
+.btnStyle a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+.techStack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 15rem;
+  font-size: 1.5rem;
+}
+.techStack .first {
+  color: #ffc62b;
+}
+.techStack .third {
+  color: #ffc62b;
+}
+.projectTitle .first {
+  color: #ffc62b;
+}
+.projectTitle .third {
+  color: #ffc62b;
+}
+.contactTitle .first {
+  color: #ffc62b;
+}
+.contactTitle .third {
+  color: #ffc62b;
+}
+
+
+.techList {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.devicon-html5-plain {
+  color: #e34c26;
+  font-size: 5rem;
+  transition: transform 0.5s ease;
+}
+.devicon-html5-plain:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+.devicon-css3-plain {
+  color: #2965f1;
+  font-size: 5rem;
+  transition: transform 0.5s ease;
+}
+.devicon-css3-plain:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+
+}
+.devicon-sass-original {
+  color:  #cc6699;
+  font-size: 5rem;
+  transition: transform 0.5s ease;
+}
+.devicon-sass-original:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+
+}
+.devicon-javascript-plain {
+  color: #F0DB4F;
+  font-size: 5rem;
+  transition: transform 0.5s ease;
+}
+.devicon-javascript-plain:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+
+}
+.devicon-react-original {
+  color: #61DBFB;
+  font-size: 5rem;
+  transition: transform 0.5s ease;
+}
+.devicon-react-original:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+
+}
+.devicon-csharp-plain {
+  color: purple;
+  font-size: 5rem;
+  transition: transform 0.5s ease; 
+}
+.devicon-csharp-plain:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+
+}
+
+.projectTitle {
+  text-align: center;
+  color: white;
+  margin-top: 10rem;
+  font-size: 1.5rem;
+}
+
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 2rem;
+  width: auto;
+  height: auto;
+}
+
+.card1 {
+  display: block;
+  overflow: hidden;
+  height: 700px;
+  width: 700px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  background-color: #464646;
+
+  transition: transform 0.4s;
+}
+.cards .card2 {
+  display: block;
+  overflow: hidden;
+  height: 700px;
+  width: 700px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  background-color: #464646;
+
+  transition: transform 0.4s;
+}
+
+.cards .card3 {
+  display: block;
+  overflow: hidden;
+  height: 700px;
+  width: 700px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  background-color: #464646;
+
+  transition: transform 0.4s;
+}
+
+
+.imageInside {
+  display: block;
+  padding: 40px;
+  cursor: pointer;
+}
+.titleBtn {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.textContent {
+  background-color: rgb(29, 29, 29);
+  text-align: start;
+  color: white;
+}
+.textContent h1 {
+  padding-left: 10px;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+.textContent h3 {
+  padding-left: 10px;
+  margin-top: -.5rem;
+}
+.textContentBtn {
+  display: block;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  z-index: 200;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.btnStyleNew {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #ffc62b;
+  font-weight: bolder;
+}
+
+.fullWidth {
+  margin-top: 1.2rem;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #ffa32b;
+  font-weight: bolder;
+}
+.fullWidth:hover {
+  background-color: #f7c94b;
+  cursor: pointer;
+}
+
+.card2 {
+  height: 600px;
+  width: 800px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  background-color: rgb(107, 107, 107);
+  transition: transform 0.4s;
+}
+
+.textContent2 {
+  background-color: rgb(29, 29, 29);
+  text-align: start;
+  color: white;
+  margin-top: 3rem;
+}
+.textContent2 h1 {
+  padding-left: 10px;
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+}
+.textContent2 h3 {
+  padding-left: 10px;
+  margin-top: -.5rem;
+}
+
+.textContent2 .fullWidth {
+  margin-top: 3rem;
+}
+
+
+
+.card3 {
+  height: 600px;
+  width: 800px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  background-color: rgb(107, 107, 107);
+  transition: transform 0.4s;
+}
+.card3 .fullWidth {
+  margin-top: 3rem;
+}
+
+.textContent3 {
+  background-color: rgb(29, 29, 29);
+  text-align: start;
+  color: white;
+  margin-top: 4rem;
+}
+.textContent3 h1 {
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  padding-left: 10px;
+}
+.textContent3 h3 {
+  padding-left: 10px;
+  margin-top: -.5rem;
+}
+.textContent3 .titleBtn {
+  display: flex;
+  align-items: center;
+}
+.textContent3 .fullWidth {
+  margin-top: 5rem;
+}
+
+
+.textContent3 .githubStyle {
+  border: none;
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: #ffc62b;
+  padding: 8px;
+  font-weight: bolder;
+}
+
+
+.card4 {
+  display: block;
+  overflow: hidden;
+  height: 700px;
+  width: 700px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-position: center;
+  background-size: cover;
+  z-index: 100;
+  background-color: #464646;
+  transition: transform 0.4s;
+}
+.textContent4 {
+  background-color: rgb(29, 29, 29);
+  text-align: start;
+  color: white;
+  margin-top: 4rem;
+}
+.textContent4 h1 {
+  text-decoration: underline;
+  text-underline-offset: .5rem;
+  padding-left: 10px;
+}
+.textContent4 h3 {
+  padding-left: 10px;
+  margin-top: -.5rem;
+}
+.textContent4 .fullWidth {
+  margin-top: 3rem;
+}
+
+
+.contactTitle {
+  text-align: center;
+  color: white;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+.contactInfo {
+  text-align: center;
+  color: white;
+  margin-top: 5rem;
+  font-size: 1rem;
+}
+
+
+hr {
+  margin-top: 10rem;
+  width: 90%;
+}
+
+.contactLinks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  text-decoration: none;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+.interest h3 {
+  text-decoration: underline;
+  text-underline-offset: .4rem;
+}
+
+.contactLinks a {
+  text-decoration: none;
+}
+
+.contactLinks .devicon-linkedin-plain:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+
+}
+.contactLinks .devicon-linkedin-plain {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.contactLinks .fas {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.contactLinks .fas:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+}
+
+.contactLinks .devicon-github-original:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+
+}
+.contactLinks .devicon-github-original {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 5px;
+  font-size: 1rem;
+  background-color: #1f1f1f;
+  text-align: center;
+  color: #fff;
+  margin-top: 7rem;
+}
 
 
 
