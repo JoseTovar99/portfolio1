@@ -291,6 +291,21 @@ li a {
   align-items: center;
   gap: 2rem;
 }
+.btnStyleCode {
+  border: none;
+  border-radius: 8px;
+  padding-left: 5px;
+  font-size: 1.8rem;
+  margin-top: .9rem;
+  background-color: orange;
+  color: black;
+  font-weight: bolder;
+}
+.btnStyleCode:hover {
+  cursor: pointer;
+  background-color: #ffc62b;
+
+}
 .textContent {
   background-color: rgb(29, 29, 29);
   text-align: start;
