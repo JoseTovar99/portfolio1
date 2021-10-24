@@ -641,10 +641,53 @@ footer {
   .textContent4 h3 {
     font-size: .8rem;
   }
-
-  
-
 }
+
+@media (max-width: 700px) {
+  .textAbout .jose {
+    font-size: 1rem;
+  }
+  .btnStyle{
+    font-size: .6rem;
+  }
+}
+@media (max-width: 600px) { 
+  .description {
+    font-size: 1.2rem;
+  }
+  .personLogo {
+    display: none;
+  }
+  .devicon-html5-plain {
+    font-size: 1.5rem;
+  }
+  .devicon-javascript-plain {
+    font-size: 1.5rem;
+
+  }
+  .devicon-sass-original {
+    font-size: 1.5rem;
+
+  }
+  .devicon-react-original {
+    font-size: 1.5rem;
+
+  }
+  .devicon-css3-plain {
+    font-size: 1.5rem;
+
+  }
+  .devicon-csharp-plain {
+    font-size: 1.5rem;
+
+  }
+  .about-list li a {
+    font-size: 1rem;
+  }
+}
+
+
+
 
 
 
