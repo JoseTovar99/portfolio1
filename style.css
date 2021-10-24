@@ -537,6 +537,45 @@ footer {
   margin-top: 7rem;
 }
 
+@media (max-width: 1100px) { 
+  br {
+    display: none;
+  }
+}
+
+@media (max-width: 850px) {
+  .description {
+    font-size: 1.5rem;
+  }
+  .personLogo {
+    transform: scale(.7);
+  }
+  .devicon-html5-plain {
+    font-size: 3rem;
+  }
+  .devicon-javascript-plain {
+    font-size: 3rem;
+
+  }
+  .devicon-sass-original {
+    font-size: 3rem;
+
+  }
+  .devicon-react-original {
+    font-size: 3rem;
+
+  }
+  .devicon-css3-plain {
+    font-size: 3rem;
+
+  }
+  .devicon-csharp-plain {
+    font-size: 3rem;
+
+  }
+}
+
+
 
 
 
