@@ -19,6 +19,19 @@ html,body
   text-align: center;
   background-color: #2F2F2F;
 }
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  display: none;
+}
+.hamburger:focus {
+  outline: none;
+}
+
 .imagelogo {
   padding-left: 20px;
 }
@@ -698,6 +711,12 @@ footer {
   }
   .about-list li a {
     font-size: 1rem;
+  }
+  .about-list {
+    display: none;
+  }
+  .hamburger {
+    display: block;
   }
 }
 
