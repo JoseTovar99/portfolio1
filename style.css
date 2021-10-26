@@ -719,7 +719,7 @@ footer {
   .about-list {
     display: none;
     width: 100%;
-    flex-direction: column;
+    margin-left: 5rem;
   }
   .about-list.show {
     display: flex;
@@ -855,4 +855,11 @@ footer {
   .contactLinks {
     font-size: 2rem;
   }
+}
+
+@media (max-width: 365px) { 
+  .about-list {
+    margin-left: 4rem;
+  }
+
 }
