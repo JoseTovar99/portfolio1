@@ -6,8 +6,8 @@
 //    .go();
 //
     
-const hamburger = document.getElementsByClassName("hamburger");
-const aboutList = document.getElementsByClassName("about-list");
+const hamburger = document.getElementById("hamburger");
+const aboutList = document.getElementById("about-list");
 
 hamburger.addEventListener('click', () => {
     aboutList.classList.toggle('show');
