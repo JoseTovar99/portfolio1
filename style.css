@@ -715,6 +715,9 @@ footer {
   .about-list {
     display: none;
   }
+  .about-list.show {
+    display: flex;
+  }
   .hamburger {
     display: block;
   }
