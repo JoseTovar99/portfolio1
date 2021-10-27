@@ -17,9 +17,18 @@ html,body
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+  /*
   background-color: #2F2F2F;
+  */
   flex-wrap: wrap;
-
+}
+.scrolling-active {
+  background-color: #fff;
+  box-shadow: 0 3px 1rem rgba(0,0,0,.1);
 }
 
 .hamburger {
