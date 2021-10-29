@@ -170,7 +170,6 @@ li a {
   color: #ffc62b;
 }
 
-
 .techList {
   display: flex;
   justify-content: center;
@@ -603,6 +602,53 @@ footer {
   color: #fff;
   margin-top: 7rem;
 }
+
+/* DESIGNS PAGE BELOW */
+.photography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+.images{
+  display: flex;
+  gap: 4rem;
+}
+
+.videography {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+.videography .videos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.uiDesign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+
+
+
 
 @media (max-width: 1100px) { 
   br {
