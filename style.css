@@ -603,6 +603,36 @@ footer {
   margin-top: 7rem;
 }
 
+.buttonColors2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.btnStyle2 {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 10px;
+  transition: transform 0.5s ease;
+}
+.btnStyle2:hover {
+  background-color: #ffa115;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  transform: translateY(-5px);
+}
+.btnStyle2 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+}
+
+
+
 /* DESIGNS PAGE BELOW */
 .photography {
   display: flex;
