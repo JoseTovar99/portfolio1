@@ -648,6 +648,16 @@ footer {
   display: flex;
   gap: 4rem;
 }
+.images #squirrel {
+  border: 4px solid rgb(0, 0, 0);
+}
+.images #leaf {
+  border: 4px solid rgb(0, 0, 0);
+}
+.images #building {
+  border: 4px solid rgb(0, 0, 0);
+}
+
 
 .videography {
   display: flex;
