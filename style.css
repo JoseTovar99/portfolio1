@@ -641,7 +641,7 @@ footer {
   align-items: center;
   text-align: center;
   color: white;
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-size: 1.5rem;
 }
 .images{
@@ -658,7 +658,6 @@ footer {
   border: 4px solid rgb(0, 0, 0);
 }
 
-
 .videography {
   display: flex;
   flex-direction: column;
@@ -666,7 +665,7 @@ footer {
   align-items: center;
   text-align: center;
   color: white;
-  margin-top: 3rem;
+  margin-top: 8rem;
   font-size: 1.5rem;
 }
 .videography .videos {
@@ -683,8 +682,21 @@ footer {
   align-items: center;
   text-align: center;
   color: white;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 1.5rem;
+}
+.uiDesign .uiImages {
+  display: flex;
+  gap: 3rem;
+}
+.uiDesign #feast-first {
+  border: 4px solid rgb(158, 141, 132);
+}
+.uiDesign #feast-second {
+  border: 4px solid rgb(158, 141, 132);
+}
+.uiDesign #feast-third {
+  border: 4px solid rgb(158, 141, 132);
 }
 
 
