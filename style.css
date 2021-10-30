@@ -865,26 +865,26 @@ footer {
     display: none;
   }
   .devicon-html5-plain {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .devicon-javascript-plain {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
   }
   .devicon-sass-original {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
   }
   .devicon-react-original {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
   }
   .devicon-css3-plain {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
   }
   .devicon-csharp-plain {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
   }
   .about-list li a {
@@ -1010,6 +1010,9 @@ footer {
 
   .videography .videos {
     transform: scale(.7);
+  }
+  .buttonColors2 .btnStyle2 {
+    font-size: 1.5rem;
   }
 }
 
