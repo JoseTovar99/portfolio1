@@ -699,6 +699,11 @@ footer {
   border: 4px solid rgb(158, 141, 132);
 }
 
+.uiImages2 {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 1215px) { 
   .images {
     gap: 1rem;
