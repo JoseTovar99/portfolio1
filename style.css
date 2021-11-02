@@ -681,6 +681,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+  gap: 40px;
   color: white;
   margin-top: 1rem;
   font-size: 1.5rem;
@@ -690,18 +691,25 @@ footer {
   gap: 3rem;
 }
 .uiDesign #feast-first {
-  border: 4px solid rgb(158, 141, 132);
+  border: 4px solid rgb(109, 109, 109);
 }
 .uiDesign #feast-second {
-  border: 4px solid rgb(158, 141, 132);
+  border: 4px solid rgb(109, 109, 109);
 }
 .uiDesign #feast-third {
-  border: 4px solid rgb(158, 141, 132);
+  border: 4px solid rgb(109, 109, 109);
 }
 
 .uiImages2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.uiImages2 #tovarEstate {
+  border: 4px solid rgb(24, 24, 24);
+
 }
 
 @media (max-width: 1215px) { 
