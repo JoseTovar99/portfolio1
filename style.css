@@ -173,9 +173,25 @@ li a {
 .techList {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 4rem;
 }
+.techList2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 20px;
+  margin-left: 10px;
+}
 
+.techTextLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .devicon-html5-plain {
   color: #e34c26;
   font-size: 5rem;
@@ -790,6 +806,10 @@ footer {
     font-size: 3rem;
 
   }
+  .techList2 {
+    font-size: 13px;
+    gap: 4.6rem;
+  }
 }
 
 @media (max-width: 790px) {
@@ -937,6 +957,10 @@ footer {
   .uiImages2 #tovarEstate1 {
     transform: scale(.4);
   }
+  .techList2 {
+    font-size: 10px;
+    gap: 4.3rem;
+  }
 }
 
 @media (max-width: 500px) { 
@@ -1046,6 +1070,10 @@ footer {
   }
   .buttonColors2 .btnStyle2 {
     font-size: 1.5rem;
+  }
+  .techList2 {
+    font-size: 7px;
+    gap: 2.7rem;
   }
 }
 
