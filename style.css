@@ -653,7 +653,21 @@ footer {
 
 
 
-/* DESIGNS PAGE BELOW */
+.gallery {
+  margin: 20px;
+}
+.gallery img {
+  width: 230px;
+  height: 350px;
+  padding: 5px;
+  transition: 1s;
+}
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+
+/* DESIGNS PAGE BELOW 
 .photography {
   display: flex;
   flex-direction: column;
@@ -739,6 +753,8 @@ footer {
 .uiImages2 #starWars {
   border: 4px solid rgb(94, 94, 94);
 }
+
+*/
 
 @media (max-width: 1215px) { 
   .images {
