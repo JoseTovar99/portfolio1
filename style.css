@@ -652,13 +652,18 @@ footer {
 }
 
 
-
+.uiTitle {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
 .gallery {
   margin: 20px;
+  text-align: center;
 }
 .gallery img {
-  width: 230px;
-  height: 350px;
+  width: 300px;
+  height: 450px;
   padding: 5px;
   transition: 1s;
 }
