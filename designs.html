@@ -9,46 +9,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="icon" href="img/favicon-32x32.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Designs Portfolio</title>
 
-    <style>
-        path {
-          transform-origin: 50% 0%;
-        }
-        .background--custom {
-          background-color: #363636;
-          position: absolute;
-          width: 100vw;
-          height: 100vh;
-          z-index: -1;
-          top: 0;
-          left: 0;
-        }
-        @keyframes path0 {
-          0% {
-            transform: rotate(-10deg);
-          }
-          100% {
-            transform: rotate(10deg);
-          }
-        }
-        @keyframes path1 {
-          0% {
-            transform: rotate(-30deg);
-          }
-          100% {
-            transform: rotate(30deg);
-          }
-        }
-      </style>
 </head>
 <body>
 
-<div class="container">
-    <svg class="background--custom" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <path fill="#CE8810" fill-opacity="0.7" d="M-100 -100L200 -100L200 50L-100 50Z" style="animation: path0 5s linear infinite alternate;" /><path fill="#D3952B" fill-opacity="0.7" d="M-100 -100L200 -100L200 50L-100 50Z" style="animation: path1 12.5s linear infinite alternate;" />
-      </svg>
+<div class="container2">
 
     <div class="nav">
         <div class="imagelogo">
@@ -88,8 +56,8 @@
       </div>
       <div class="uiImages2">
         <img src="img/realestate.jpg" alt="" id="tovarEstate1" style="width: 850px; height: 700px;">
+        <img src="img/0001.jpg" alt="" id="starWars" style="width: 750px; height: 700px;">
         <img src="img/ModernMusclePosterFinished.png" alt="" id="tovarEstate" style="width: 450px; height: 600px;">
-        <img src="img/0001.jpg" alt="" id="starWars" style="width: 550px; height: 500px;">
 
       </div>
     </div> 
@@ -125,6 +93,9 @@
 </div>
     
 <script src="main.js"></script>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
