@@ -13,7 +13,7 @@ html,body
 }
 
 .container2 {
-  background-color: rgb(151, 150, 150);
+  background-color: rgb(230, 153, 10);
 }
 
 .nav {
@@ -374,6 +374,7 @@ li a {
   background-color: #ffc62b;
   font-weight: bolder;
 }
+
 
 .fullWidth {
   margin-top: 4.2rem;
