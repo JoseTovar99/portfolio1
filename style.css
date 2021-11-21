@@ -371,10 +371,10 @@ li a {
   padding-left: 10px;
 }
 .btnStyleNew {
-  border: none;
+  border: 2px solid white;
   border-radius: 5px;
   padding: 5px;
-  background-color: #ff3c00b0;
+  background-color: #020000b0;
   color: white;
   font-weight: bolder;
 }
@@ -672,7 +672,7 @@ footer {
   padding: 5px;
   margin: 20px;
   transition: 1s;
-  border: 3px solid rgb(242, 108, 79);
+  border: 3px solid rgb(253, 173, 0);
 }
 .gallery1 img:hover {
   transform: scale(1.02);
@@ -689,7 +689,7 @@ footer {
   margin: 20px;
 
   transition: 1s;
-  border: 3px solid rgb(242, 108, 79);
+  border: 3px solid rgb(253, 173, 0);
 }
 .gallery2 img:hover {
   transform: scale(1.02);
