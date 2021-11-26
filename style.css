@@ -332,6 +332,10 @@ li a {
   align-items: center;
   gap: 2rem;
 }
+.titleBtn h1 {
+  color: #f7972b;
+
+}
 .btnStyleCode {
   border: none;
   border-radius: 8px;
@@ -350,7 +354,7 @@ li a {
 .textContent {
   background-color: rgb(29, 29, 29);
   text-align: start;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 .textContent h1 {
   padding-left: 10px;
