@@ -333,8 +333,23 @@ li a {
   gap: 2rem;
 }
 .titleBtn h1 {
-  color: #f7972b;
+  color: #ffffff;
 
+}
+.textContent h3 {
+  color: rgb(212, 212, 212);
+}
+.textContent2 h3 {
+  color: rgb(212, 212, 212);
+  
+}
+.textContent3 h3 {
+  color: rgb(212, 212, 212);
+  
+}
+.textContent4 h3 {
+  color: rgb(212, 212, 212);
+  
 }
 .btnStyleCode {
   border: none;
