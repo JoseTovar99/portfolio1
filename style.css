@@ -13,7 +13,7 @@ html,body
 }
 
 .container2 {
-  background-color: #222;
+  background-color: white;
 }
 
 .nav {
@@ -677,8 +677,11 @@ footer {
 
 .uiTitle {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 25px;
+}
+.uiTitle h1 {
+  font-weight: lighter;
 }
 
 .gallery1 {
@@ -691,7 +694,6 @@ footer {
   padding: 5px;
   margin: 20px;
   transition: 1s;
-  border: 3px solid rgb(253, 173, 0);
 }
 .gallery1 img:hover {
   transform: scale(1.02);
@@ -708,13 +710,12 @@ footer {
   margin: 20px;
 
   transition: 1s;
-  border: 3px solid rgb(253, 173, 0);
 }
 .gallery2 img:hover {
   transform: scale(1.02);
 }
 #feast-crew {
-  width: 300px;
+  width: 250px;
   height: 500px;
 }
 
@@ -724,9 +725,12 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 8rem;
   font-size: 1.5rem;
+}
+.videography h1 {
+  font-weight: lighter;
 }
 .videography .videos {
   display: flex;
