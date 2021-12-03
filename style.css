@@ -25,6 +25,15 @@ html,body
   background-color: #2f2f2f;
   flex-wrap: wrap;
 }
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  z-index: 500;
+  background-color: white;
+  flex-wrap: wrap;
+}
 .scrolling-active {
   background-color: #fff;
   box-shadow: 0 3px 1rem rgba(0,0,0,.1);
@@ -65,6 +74,25 @@ li a {
   font-size: 1.5rem;
 }
 
+.about-list2 {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  gap: 2rem;
+}
+.about-list2 li a:hover {
+  color: #ffc62b;
+  transition: all 0.3s ease 0s;
+
+}
+
+.about-list2 li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
 .dark-light {
   color: white;
   padding-right: 20px;
@@ -88,7 +116,7 @@ li a {
 .dark-light .devicon-linkedin-plain {
   list-style-type: none;
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .dark-light .devicon-github-original:hover {
@@ -101,7 +129,46 @@ li a {
 .dark-light .devicon-github-original {
   list-style-type: none;
   text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.dark-light2 {
   color: white;
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2.2rem;
+  margin-top: 10px;
+}
+.dark-light2 a {
+  text-decoration: none;
+}
+
+.dark-light2 .devicon-linkedin-plain:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+
+}
+.dark-light2 .devicon-linkedin-plain {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.dark-light2 .devicon-github-original:hover {
+  color: #ffc62b;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  text-decoration: none;
+
+}
+.dark-light2 .devicon-github-original {
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
 }
 .about-section {
   display: flex;
@@ -717,6 +784,9 @@ footer {
 #feast-crew {
   width: 250px;
   height: 500px;
+}
+#estatedesign {
+  width: 500px;
 }
 
 .videography {
