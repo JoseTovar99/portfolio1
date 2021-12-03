@@ -78,6 +78,7 @@ li a {
   list-style-type: none;
   text-decoration: none;
   display: flex;
+  margin-left: 35px;
   gap: 2rem;
 }
 .about-list2 li a:hover {
@@ -786,7 +787,11 @@ footer {
   height: 500px;
 }
 #estatedesign {
-  width: 500px;
+  width: 800px;
+  height: 600px;
+}
+#bluetape {
+  width: 400px;
 }
 
 .videography {
