@@ -937,6 +937,12 @@ footer {
   }
 }
 
+@media (max-width: 870px) {
+  #estatedesign {
+    width: 500px;
+    height: 400px;
+  }
+}
 
 @media (max-width: 850px) {
   .description {
@@ -1101,6 +1107,14 @@ footer {
     width: 100%;
     margin-left: 5rem;
   }
+  .about-list2 {
+    margin-left: -20px;
+    padding-right: 10px;
+  }
+  
+  .dark-light2 {
+    display: none;
+  }
   .about-list.show {
     display: flex;
   }
@@ -1125,13 +1139,20 @@ footer {
   }
 }
 
+@media (max-width: 570px) {
+  #estatedesign {
+    width: 300px;
+    height: 200px;
+  }
+}
+
 @media (max-width: 500px) { 
   .card1 {
     height: 350px;
     width: 350px;
   }
   .textContent {
-    margin-top: -2rem;
+    margin-top: -1rem;
   }
   .textContent h1 {
     font-size: .8rem;
@@ -1141,14 +1162,17 @@ footer {
     font-size: .6rem;
   }
   .textContentBtn {
-    font-size: .5rem;
-    
+    font-size: 1rem;
+    color: white;
+  }
+  .textContentBtn .btnStyleNew {
+    font-size: 1rem;
+    color: white;
   }
   .textContent .fullWidth {
     font-size: .7rem;
     margin-top: .1rem;
     color: black;
-
   }
   .cards .card2 {
     height: 350px;
@@ -1192,7 +1216,7 @@ footer {
   }
   .textContent3 .fullWidth {
     font-size: .7rem;
-    margin-top: 3.5rem;
+    margin-top: 3rem;
     color: black;
 
   }
@@ -1236,6 +1260,11 @@ footer {
   .techList2 {
     font-size: 7px;
     gap: 2.7rem;
+  }
+
+  #bluetape {
+    width: 300px;
+    height: 300px;
   }
 }
 
@@ -1281,6 +1310,14 @@ footer {
 @media (max-width: 365px) { 
   .about-list {
     margin-left: 4rem;
+  }
+  #bluetape {
+    width: 250px;
+    height: 250px;
+  }
+  #estatedesign {
+    width: 250px;
+    height: 200px;
   }
 
 }
