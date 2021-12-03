@@ -1188,9 +1188,6 @@ footer {
   .textContent2 h3 {
     font-size: .6rem;
   }
-  .textContentBtn {
-    font-size: .5rem;
-  }
   .textContent2 .fullWidth {
     font-size: .7rem;
     margin-top: 3rem;
@@ -1210,9 +1207,6 @@ footer {
   }
   .textContent3 h3 {
     font-size: .6rem;
-  }
-  .textContentBtn {
-    font-size: .5rem;
   }
   .textContent3 .fullWidth {
     font-size: .7rem;
@@ -1237,7 +1231,6 @@ footer {
   }
   .textContentBtn .btnStyleNew {
     font-size: .5rem;
-    color: black;
 
   }
   .textContent4 .fullWidth {
@@ -1249,6 +1242,7 @@ footer {
 
   .techList {
     gap: 2rem;
+    transform: scale(1.1);
   }
 
   .videography .videos {
@@ -1258,7 +1252,7 @@ footer {
     font-size: 1.5rem;
   }
   .techList2 {
-    font-size: 7px;
+    font-size: 10px;
     gap: 2.7rem;
   }
 
