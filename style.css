@@ -817,6 +817,25 @@ footer {
   gap: 2rem;
 }
 
+/* New Design Page */
+.designCardsFirst {
+  display: flex;
+  justify-content: space-around;
+}
+.designCard1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.designCard1 .uiBtn {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
 
 /* DESIGNS PAGE BELOW 
 .photography {
