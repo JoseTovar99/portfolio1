@@ -1122,9 +1122,23 @@ span.text-content span {
   }
   .uiDescr #orbitirPhone {
     transform: scale(.8);
+    margin-left: 4rem;
   }
   .uiDescr #treezuPhone {
     transform: scale(.8);
+    margin-left: 4rem;
+
+  }
+  .uiDescr #feastPhone {
+    transform: scale(.8);
+    margin-left: 4rem;
+
+  }
+  .uiDescr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -1216,6 +1230,17 @@ span.text-content span {
   }
 }
 
+@media (max-width: 650px) { 
+  .orbitir #orbitScale {
+    width: 350px;
+  }
+  .treezu #treezuScale {
+    width: 350px;
+  }
+  .feast-design #feastScale {
+    width: 350px;
+  }
+}
 
 @media (max-width: 600px) { 
   .description {
