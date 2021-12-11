@@ -963,6 +963,20 @@ span.text-content span {
 }
 
 
+.vid-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.vid-list h4 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+
 @media (max-width: 1400px) { 
   .videos {
     transform: scale(.8);
