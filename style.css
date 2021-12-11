@@ -844,9 +844,12 @@ footer {
 .designCard1 img:hover {
   filter: brightness(50%);
   cursor: pointer;
+  transition: all 0.3s ease 0s;
+
 }
 .designCard1:hover span.text-content {
   opacity: 1;
+  
 }
 span.text-content {
   position: absolute;
@@ -1387,6 +1390,10 @@ span.text-content span {
     transform: scale(.5);
     margin-top: -5rem;
   }
+  .designCardsFirst {
+    transform: scale(.8);
+    margin-top: -30px;
+  }
 }
 
 @media (max-width: 365px) { 
@@ -1402,4 +1409,11 @@ span.text-content span {
     height: 200px;
   }
 
+}
+
+@media (max-width: 340px) { 
+  .designCardsFirst {
+    transform: scale(.7);
+    margin-top: -8rem;
+  }
 }
