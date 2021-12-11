@@ -905,6 +905,7 @@ span.text-content span {
 .uiDescr h4 {
   font-weight: lighter;
   padding-left: 50px;
+  padding-right: 30px;
 }
 #orbitirPhone {
   padding-right: 90px;
@@ -927,6 +928,21 @@ span.text-content span {
   padding-right: 90px;
 }
 
+.feast-design {
+  text-align: center;
+  margin-top: 3rem;
+  background-color: #FF7A00;
+  padding-top: 20px;
+}
+.feastText {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bolder;
+}
+#feastPhone {
+  padding-right: 90px;
+}
 
 
 @media (max-width: 1400px) { 
