@@ -885,6 +885,10 @@ span.text-content span {
   background-color: rgb(0, 0, 0);
   padding-top: 20px;
 }
+.orbitir #orbitScale {
+  width: 1200px;
+
+}
 .orbitirText {
   font-size: 3rem;
   margin-bottom: 30px;
@@ -921,6 +925,9 @@ span.text-content span {
   background-color: #4A4A4A;
   padding-top: 20px;
 }
+.treezu #treezuScale {
+  width: 1200px;
+}
 .treezuText {
   font-size: 3rem;
   margin-bottom: 30px;
@@ -936,6 +943,9 @@ span.text-content span {
   margin-top: 3rem;
   background-color: #FF7A00;
   padding-top: 20px;
+}
+.feast-design #feastScale {
+  width: 1200px;
 }
 .feastText {
   font-size: 3rem;
@@ -986,6 +996,21 @@ span.text-content span {
   }
 }
 
+@media (max-width: 1250px) { 
+  .orbitir #orbitScale {
+    width: 1000px;
+  }
+  .treezu #treezuScale {
+    width: 1000px;
+  }
+  .feast-design #feastScale {
+    width: 1000px;
+  }
+  .uiDescr .uiTextFlex {
+    font-size: 1.5rem;
+  }
+}
+
 @media (max-width: 1215px) { 
   .images {
     gap: 1rem;
@@ -1000,12 +1025,25 @@ span.text-content span {
   .photography .images {
     transform: scale(.8);
   }
+ 
 }
 
 
 @media (max-width: 1100px) { 
   br {
     display: none;
+  }
+}
+
+@media (max-width: 1050px) { 
+  .orbitir #orbitScale {
+    width: 800px;
+  }
+  .treezu #treezuScale {
+    width: 800px;
+  }
+  .feast-design #feastScale {
+    width: 800px;
   }
 }
 
@@ -1068,6 +1106,25 @@ span.text-content span {
   .techList2 {
     font-size: 13px;
     gap: 4.6rem;
+  }
+
+  .orbitir #orbitScale {
+    width: 600px;
+  }
+  .treezu #treezuScale {
+    width: 600px;
+  }
+  .feast-design #feastScale {
+    width: 600px;
+  }
+  .uiDescr .uiTextFlex {
+    font-size: 1.2rem;
+  }
+  .uiDescr #orbitirPhone {
+    transform: scale(.8);
+  }
+  .uiDescr #treezuPhone {
+    transform: scale(.8);
   }
 }
 
