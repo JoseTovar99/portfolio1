@@ -818,14 +818,22 @@ footer {
 }
 
 /* New Design Page */
-.designCardsFirst {
+.designLayout {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  min-height: calc(100vh - 40px);
 }
-.designCard1 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+.designCardsFirst {
+ text-align: center;
+}
+.designCardsFirst img {
+  width: 400px;
+  height: 600px;
+  padding: 10px;
+  object-fit: cover;
 }
 .designCard1 .uiBtn {
   border: none;
