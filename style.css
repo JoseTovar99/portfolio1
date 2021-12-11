@@ -835,16 +835,45 @@ footer {
   padding: 10px;
   object-fit: cover;
 }
-.designCard1 .uiBtn {
-  border: none;
-  background-color: black;
-  color: white;
-  border-radius: 5px;
-  margin-top: 5px;
-  padding: 10px;
+.designCard1 {
+  position: relative;
+  margin-bottom: 1em;
+  display: inline-block;
+}
+.designCard1 img:hover {
+  filter: brightness(50%);
   cursor: pointer;
 }
+.designCard1:hover span.text-content {
+  opacity: 1;
+}
+span.text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  display: table;
+  width: 150px;
+  height: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+span.text-content span {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+#uiHover {
+}
+#uiHover:hover {
 
+}
 /* DESIGNS PAGE BELOW 
 .photography {
   display: flex;
