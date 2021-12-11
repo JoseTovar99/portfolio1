@@ -884,7 +884,10 @@ span.text-content span {
 }
 .orbitirText {
   font-size: 3rem;
+  margin-bottom: 30px;
   color: white;
+  font-weight: bolder;
+
 }
 .uiDescr {
   display: flex;
@@ -907,6 +910,22 @@ span.text-content span {
   padding-right: 90px;
 }
 
+
+.treezu {
+  text-align: center;
+  margin-top: 3rem;
+  background-color: #4A4A4A;
+  padding-top: 20px;
+}
+.treezuText {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bolder;
+}
+#treezuPhone {
+  padding-right: 90px;
+}
 
 
 
