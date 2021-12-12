@@ -896,6 +896,23 @@ span.text-content span {
   font-weight: bolder;
 
 }
+.orbitirBtn {
+  text-align: center;
+  padding-bottom: 50px;
+  
+}
+.orbitirBtn .btnFullScreen {
+  color: rgb(255, 255, 255);
+  background-color: rgba(211, 169, 115, 0.555);
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 15px;
+  margin-left: 1rem;
+}
+.orbitirBtn .btnFullScreen:hover {
+  background-color: rgb(187, 129, 53);
+}
 .uiDescr {
   display: flex;
   justify-content: center;
@@ -1122,16 +1139,16 @@ span.text-content span {
   }
   .uiDescr #orbitirPhone {
     transform: scale(.8);
-    margin-left: 4rem;
+    margin-left: 5.5rem;
   }
   .uiDescr #treezuPhone {
     transform: scale(.8);
-    margin-left: 4rem;
+    margin-left: 5.5rem;
 
   }
   .uiDescr #feastPhone {
     transform: scale(.8);
-    margin-left: 4rem;
+    margin-left: 5.5rem;
 
   }
   .uiDescr {
@@ -1239,6 +1256,9 @@ span.text-content span {
   }
   .feast-design #feastScale {
     width: 350px;
+  }
+  .btnFullScreen {
+    margin-left: 2rem;
   }
 }
 
@@ -1475,6 +1495,15 @@ span.text-content span {
   .designCardsFirst {
     transform: scale(.8);
     margin-top: -30px;
+  }
+  .orbitir #orbitScale {
+    width: 300px;
+  }
+  .treezu #treezuScale {
+    width: 300px;
+  }
+  .feast-design #feastScale {
+    width: 300px;
   }
 }
 
