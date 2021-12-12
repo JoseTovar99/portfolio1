@@ -877,12 +877,12 @@ span.text-content span {
 
 /* UI PAGE */
 .card-sections {
-  padding: 10px;
+  padding: 20px;
 }
 .orbitir {
   text-align: center;
   margin-top: 3rem;
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(37, 37, 37);
   padding-top: 20px;
 }
 .orbitir #orbitScale {
@@ -1162,6 +1162,9 @@ span.text-content span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .card-sections {
+    padding: 10px;
   }
 }
 
