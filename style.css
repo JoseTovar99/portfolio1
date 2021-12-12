@@ -1064,6 +1064,12 @@ span.text-content span {
   }
 }
 
+@media (max-width: 1000px) { 
+  .firstmodel img {
+    transform: scale(.8);
+  }
+}
+
 @media (max-width: 900px) { 
   .photography .images {
     display: flex;
@@ -1164,6 +1170,10 @@ span.text-content span {
     display: flex;
     flex-direction: column;
     transform: scale(1);
+  }
+  .firstmodel img {
+    transform: scale(.6);
+    margin: -6rem;
   }
 }
 
@@ -1332,6 +1342,10 @@ span.text-content span {
   }
   .vidScale {
     transform: scale(.7);
+  }
+  .firstmodel img {
+    transform: scale(.4);
+    margin: -10rem;
   }
 }
 
@@ -1514,6 +1528,10 @@ span.text-content span {
   }
   .vid-list h4 {
     font-size: 1rem;
+  }
+  .firstmodel img {
+    transform: scale(.3);
+    margin: -12rem;
   }
 }
 
