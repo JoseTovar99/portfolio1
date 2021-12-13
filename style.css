@@ -692,7 +692,7 @@ hr {
 }
 .interest h3 {
   text-decoration: underline;
-  text-decoration-color: #f26c4f;
+   text-decoration-color: #f26c4f;
   text-decoration-thickness: .1rem;
   text-underline-offset: .4rem;
 }
