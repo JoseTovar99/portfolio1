@@ -11,6 +11,9 @@ html,body
   overflow-x: hidden; 
   scroll-behavior: smooth;
 }
+.container {
+  background: #222;
+}
 
 .container2 {
   background-color: white;
@@ -22,7 +25,7 @@ html,body
   align-items: center;
   text-align: center;
   z-index: 500;
-  background-color: #2f2f2f;
+  background: #222;
   flex-wrap: wrap;
 }
 .nav2 {
@@ -63,7 +66,7 @@ html,body
   gap: 2rem;
 }
 .about-list li a:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   transition: all 0.3s ease 0s;
 
 }
@@ -82,7 +85,7 @@ li a {
   gap: 2rem;
 }
 .about-list2 li a:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   transition: all 0.3s ease 0s;
 
 }
@@ -108,7 +111,7 @@ li a {
 }
 
 .dark-light .devicon-linkedin-plain:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
@@ -121,7 +124,7 @@ li a {
 }
 
 .dark-light .devicon-github-original:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
@@ -147,7 +150,7 @@ li a {
 }
 
 .dark-light2 .devicon-linkedin-plain:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
@@ -160,7 +163,7 @@ li a {
 }
 
 .dark-light2 .devicon-github-original:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
@@ -179,14 +182,18 @@ li a {
   font-size: 1.3rem;
   margin-top: 3rem;
 }
-.jose {
-  font-weight: bolder;
+.textAbout .jose {
   text-decoration: underline;
-  text-decoration-color: black;
+  text-decoration-color: #f26c4f;
+  text-decoration-thickness: .1rem;
   text-underline-offset: .5rem;
+  font-size: 1.7rem;
+}
+.jose h1 {
+  font-weight: bolder;
 }
 .hiThere {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .textAbout .description {
@@ -196,23 +203,28 @@ li a {
   margin-top: 3rem;
 }
 .btnStyle {
-  border: none;
-  background-color: white;
-  color: black;
-  border-radius: 10px;
+  border: 3px;
+  border-style: solid;
+  border-color: #f26c4f;
+  color: rgb(255, 255, 255);
   font-size: 1rem;
   padding: 10px 25px;
+  margin: 5px;
+  background: #222;
 }
 .btnStyle:hover {
-  background-color: #ffa115;
   color: #ffffff;
+  background: #f26c4f;
   cursor: pointer;
   transition: all 0.2s ease 0s;
 }
 .btnStyle a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: bolder;
+}
+.btnStyle a:hover {
+  color: #ffffff;
 }
 
 .techStack {
@@ -226,22 +238,22 @@ li a {
   font-size: 1.5rem;
 }
 .techStack .first {
-  color: #ffc62b;
+  color: #f26c4f;
 }
 .techStack .third {
-  color: #ffc62b;
+  color: #f26c4f;
 }
 .projectTitle .first {
-  color: #ffc62b;
+  color: #f26c4f;
 }
 .projectTitle .third {
-  color: #ffc62b;
+  color: #f26c4f;
 }
 .contactTitle .first {
-  color: #ffc62b;
+  color: #f26c4f;
 }
 .contactTitle .third {
-  color: #ffc62b;
+  color: #f26c4f;
 }
 
 .techList {
@@ -711,7 +723,7 @@ hr {
 footer {
   padding: 5px;
   font-size: 1rem;
-  background-color: #1f1f1f;
+  background: #222;
   text-align: center;
   color: #fff;
   margin-top: 7rem;
