@@ -461,6 +461,7 @@ li a {
 .textContent h3 {
   padding-left: 10px;
   margin-top: -.5rem;
+  font-weight: lighter;
 }
 .textContentBtn {
   display: block;
@@ -489,11 +490,12 @@ li a {
   border: none;
   background-color: #f26c4f;
   font-weight: bolder;
-  color: white;
+  color: black;
 }
 .fullWidth:hover {
   background-color: #f26c4f;
   cursor: pointer;
+  color: white;
 }
 
 .card2 {
@@ -518,11 +520,15 @@ li a {
 .textContent2 h1 {
   padding-left: 10px;
   text-decoration: underline;
+  text-decoration-color: #f26c4f;
+  text-decoration-thickness: .1rem;
   text-underline-offset: .5rem;
 }
 .textContent2 h3 {
   padding-left: 10px;
   margin-top: -.5rem;
+  font-weight: lighter;
+
 }
 
 .textContent2 .fullWidth {
@@ -558,12 +564,15 @@ li a {
 }
 .textContent3 h1 {
   text-decoration: underline;
+  text-decoration-color: #f26c4f;
+  text-decoration-thickness: .1rem;
   text-underline-offset: .5rem;
   padding-left: 10px;
 }
 .textContent3 h3 {
   padding-left: 10px;
   margin-top: -.5rem;
+  font-weight: lighter;
 }
 .textContent3 .titleBtn {
   display: flex;
@@ -605,12 +614,15 @@ li a {
 }
 .textContent4 h1 {
   text-decoration: underline;
+  text-decoration-color: #f26c4f;
+  text-decoration-thickness: .1rem;
   text-underline-offset: .5rem;
   padding-left: 10px;
 }
 .textContent4 h3 {
   padding-left: 10px;
   margin-top: -.5rem;
+  font-weight: lighter;
 }
 .textContent4 .fullWidth {
   margin-top: 3rem;
@@ -668,6 +680,7 @@ hr {
   width: 90%;
 }
 
+
 .contactLinks {
   display: flex;
   justify-content: center;
@@ -679,6 +692,8 @@ hr {
 }
 .interest h3 {
   text-decoration: underline;
+  text-decoration-color: #f26c4f;
+  text-decoration-thickness: .1rem;
   text-underline-offset: .4rem;
 }
 
@@ -687,7 +702,7 @@ hr {
 }
 
 .contactLinks .devicon-linkedin-plain:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
@@ -704,14 +719,14 @@ hr {
   color: white;
 }
 .contactLinks .fas:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
 }
 
 .contactLinks .devicon-github-original:hover {
-  color: #ffc62b;
+  color: #f26c4f;
   cursor: pointer;
   transition: all 0.5s ease 0s;
   text-decoration: none;
@@ -748,7 +763,7 @@ footer {
   transition: transform 0.5s ease;
 }
 .btnStyle2:hover {
-  background-color: #ffa115;
+  background-color: #f26c4f;
   color: #ffffff;
   cursor: pointer;
   transition: all 0.2s ease 0s;
@@ -758,6 +773,9 @@ footer {
   text-decoration: none;
   color: rgb(0, 0, 0);
   font-weight: bolder;
+}
+.btnStyle2 a:hover {
+  color: white;
 }
 
 
