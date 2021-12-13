@@ -454,6 +454,8 @@ li a {
 .textContent h1 {
   padding-left: 10px;
   text-decoration: underline;
+  text-decoration-color: #f26c4f;
+  text-decoration-thickness: .1rem;
   text-underline-offset: .5rem;
 }
 .textContent h3 {
@@ -470,7 +472,7 @@ li a {
   padding-left: 10px;
 }
 .btnStyleNew {
-  border: 2px solid white;
+  border: 2px solid #f26c4f;
   border-radius: 5px;
   padding: 5px;
   background-color: #020000b0;
@@ -485,11 +487,12 @@ li a {
   padding: 5px;
   font-size: 1.5rem;
   border: none;
-  background-color: #ffa32b;
+  background-color: #f26c4f;
   font-weight: bolder;
+  color: white;
 }
 .fullWidth:hover {
-  background-color: #f7c94b;
+  background-color: #f26c4f;
   cursor: pointer;
 }
 
