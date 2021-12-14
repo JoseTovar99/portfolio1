@@ -1383,6 +1383,9 @@ span.text-content span {
     transform: scale(.4);
     margin: -10rem;
   }
+  .firstmodel #vaseScale {
+    margin-top: -30px;
+  }
 }
 
 @media (max-width: 570px) {
