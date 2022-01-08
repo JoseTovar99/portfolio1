@@ -64,10 +64,11 @@ html,body
   text-decoration: none;
   display: flex;
   gap: 2rem;
+  transition: all 0.5s ease;
+
 }
 .about-list li a:hover {
   color: #f26c4f;
-  transition: all 0.3s ease 0s;
 
 }
 
@@ -75,6 +76,8 @@ li a {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-size: 1.5rem;
+  transition: all 0.5s ease;
+
 }
 
 .about-list2 {
@@ -94,7 +97,7 @@ li a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   font-size: 1.5rem;
-  transition: 0.5s;
+  transition: all 0.5s ease;
 }
 
 .dark-light {
@@ -121,6 +124,8 @@ li a {
   list-style-type: none;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+
 }
 
 .dark-light .devicon-github-original:hover {
@@ -134,6 +139,8 @@ li a {
   list-style-type: none;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  transition: all 0.5s ease;
+
 }
 
 .dark-light2 {
@@ -160,6 +167,7 @@ li a {
   list-style-type: none;
   text-decoration: none;
   color: rgb(0, 0, 0);
+  transition: all 0.5s ease;
 }
 
 .dark-light2 .devicon-github-original:hover {
@@ -173,6 +181,7 @@ li a {
   list-style-type: none;
   text-decoration: none;
   color: rgb(0, 0, 0);
+  transition: all 0.5s ease;
 }
 .about-section {
   display: flex;
@@ -211,6 +220,7 @@ li a {
   padding: 10px 25px;
   margin: 5px;
   background: #222;
+  transition: all 0.5s ease;
 }
 .btnStyle:hover {
   color: #ffffff;
@@ -712,11 +722,13 @@ hr {
   list-style-type: none;
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease;
 }
 .contactLinks .fas {
   list-style-type: none;
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease;
 }
 .contactLinks .fas:hover {
   color: #f26c4f;
@@ -736,6 +748,7 @@ hr {
   list-style-type: none;
   text-decoration: none;
   color: white;
+  transition: all 0.5s ease;
 }
 
 footer {
@@ -915,7 +928,6 @@ span.text-content span {
 .orbitir {
   text-align: center;
   margin-top: 3rem;
-  background-color: rgb(0, 0, 0);
   padding-top: 20px;
 }
 .orbitir #orbitScale {
@@ -925,7 +937,7 @@ span.text-content span {
 .orbitirText {
   font-size: 3rem;
   margin-bottom: 30px;
-  color: white;
+  color: black;
   font-weight: bolder;
 
 }
@@ -935,8 +947,8 @@ span.text-content span {
   
 }
 .orbitirBtn .btnFullScreen {
-  color: rgb(255, 255, 255);
-  background-color: rgba(211, 169, 115, 0.555);
+  color: rgb(0, 0, 0);
+  background-color: rgb(240, 168, 74);
   border: none;
   font-size: 1.2rem;
   cursor: pointer;
@@ -951,7 +963,7 @@ span.text-content span {
   justify-content: center;
   align-items: flex-start;
   font-size: 2rem;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 50px;
   padding-bottom: 50px;
 }
@@ -963,6 +975,7 @@ span.text-content span {
   font-weight: lighter;
   padding-left: 50px;
   padding-right: 30px;
+  width: 700px;
 }
 #orbitirPhone {
   padding-right: 90px;
@@ -972,7 +985,6 @@ span.text-content span {
 .treezu {
   text-align: center;
   margin-top: 3rem;
-  background-color: #4A4A4A;
   padding-top: 20px;
 }
 .treezu #treezuScale {
@@ -981,7 +993,7 @@ span.text-content span {
 .treezuText {
   font-size: 3rem;
   margin-bottom: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
 }
 #treezuPhone {
@@ -991,7 +1003,6 @@ span.text-content span {
 .feast-design {
   text-align: center;
   margin-top: 3rem;
-  background-color: #FF7A00;
   padding-top: 20px;
 }
 .feast-design #feastScale {
@@ -1000,7 +1011,7 @@ span.text-content span {
 .feastText {
   font-size: 3rem;
   margin-bottom: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
 }
 #feastPhone {
