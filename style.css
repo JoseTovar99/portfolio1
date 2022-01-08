@@ -966,6 +966,7 @@ span.text-content span {
   color: rgb(0, 0, 0);
   margin-top: 50px;
   padding-bottom: 50px;
+  padding: 50px;
 }
 .uiTextFlex {
   display: flex;
@@ -975,7 +976,6 @@ span.text-content span {
   font-weight: lighter;
   padding-left: 50px;
   padding-right: 30px;
-  width: 700px;
 }
 #orbitirPhone {
   padding-right: 90px;
