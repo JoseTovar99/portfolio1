@@ -1319,6 +1319,18 @@ span.text-content span {
   .btnFullScreen {
     margin-left: 2rem;
   }
+  .uiDescr #orbitirPhone {
+    transform: scale(.6);
+    margin-top: -5rem;
+  }
+  .uiDescr #treezuPhone {
+    transform: scale(.6);
+    margin-top: -5rem;
+  }
+  .uiDescr #feastPhone {
+    transform: scale(.6);
+    margin-top: -5rem;
+  }
 }
 
 @media (max-width: 600px) { 
