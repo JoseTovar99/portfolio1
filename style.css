@@ -1225,6 +1225,9 @@ span.text-content span {
   .card-sections {
     padding: 10px;
   }
+  .orbitirBtn .btnFullScreen {
+    display: none;
+  }
 }
 
 @media (max-width: 790px) {
@@ -1573,15 +1576,16 @@ span.text-content span {
   .uiImages2 {
     gap: 1px;
   }
-  .orbitirBtn .btnFullScreen {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    padding: 5px;
-    font-size: 1rem;
-    margin-left: 3rem;
+  .treezu h4 {
+    width: 200px;
   }
-  
+  .orbitir h4 {
+    width: 200px;
+  }
+  .feast-design h4 {
+    width: 200px;
+  }
+
 }
 
 @media (max-width: 400px) { 
