@@ -930,6 +930,9 @@ span.text-content span {
   margin-top: 3rem;
   padding-top: 20px;
 }
+.orbitir h4 {
+  text-align: start !important;
+}
 .orbitir #orbitScale {
   width: 1200px;
 
@@ -973,6 +976,10 @@ span.text-content span {
 .uiTextFlex {
   display: flex;
   flex-direction: column;
+  justify-content: start;
+}
+.uiTextFlex h4 {
+  display: flex;
 }
 .uiDescr h4 {
   font-weight: lighter;
@@ -988,6 +995,9 @@ span.text-content span {
   text-align: center;
   margin-top: 3rem;
   padding-top: 20px;
+}
+.treezu h4 {
+  text-align: start !important;
 }
 .treezu #treezuScale {
   width: 1200px;
@@ -1006,6 +1016,9 @@ span.text-content span {
   text-align: center;
   margin-top: 3rem;
   padding-top: 20px;
+}
+.feast-design h4 {
+  text-align: start !important;
 }
 .feast-design #feastScale {
   width: 1200px;
