@@ -971,7 +971,7 @@ span.text-content span {
   color: rgb(0, 0, 0);
   margin-top: 50px;
   padding-bottom: 50px;
-  padding: 50px;
+  padding: 80px;
 }
 .uiTextFlex {
   display: flex;
@@ -1573,6 +1573,15 @@ span.text-content span {
   .uiImages2 {
     gap: 1px;
   }
+  .orbitirBtn .btnFullScreen {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 5px;
+    font-size: 1rem;
+    margin-left: 3rem;
+  }
+  
 }
 
 @media (max-width: 400px) { 
