@@ -1393,6 +1393,7 @@ span.text-content span {
   }
   .about-list.show {
     display: flex;
+    flex-direction: column;
   }
   .hamburger {
     display: block;
@@ -1542,7 +1543,7 @@ span.text-content span {
 
 @media (max-width: 450px) { 
   .about-list li a {
-    font-size: .7rem;
+    font-size: 1rem;
   }
   .imagelogo {
     transform: scale(.7);
@@ -1588,6 +1589,9 @@ span.text-content span {
   }
   .textContent4 .fullWidth {
     margin-top: 2.3rem;
+  }
+  .about-section {
+    margin-right: 30px;
   }
 }
 
