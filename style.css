@@ -1185,10 +1185,6 @@ span.text-content span {
     font-size: 3rem;
 
   }
-  .techList2 {
-    font-size: 13px;
-    gap: 4.6rem;
-  }
 
   .orbitir #orbitScale {
     width: 600px;
@@ -1413,10 +1409,6 @@ span.text-content span {
   .uiImages2 #tovarEstate1 {
     transform: scale(.4);
   }
-  .techList2 {
-    font-size: 10px;
-    gap: 4.3rem;
-  }
   .vidScale {
     transform: scale(.7);
   }
@@ -1541,10 +1533,6 @@ span.text-content span {
   .buttonColors2 .btnStyle2 {
     font-size: 1.5rem;
   }
-  .techList2 {
-    font-size: 10px;
-    gap: 2.7rem;
-  }
 
   #bluetape {
     width: 300px;
@@ -1585,10 +1573,7 @@ span.text-content span {
   .feast-design h4 {
     width: 200px;
   }
-  .techList2 {
-    font-size: 15px;
-    gap: 2.7rem;
-  }
+  
 
 }
 
