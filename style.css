@@ -1574,7 +1574,7 @@ span.text-content span {
     width: 200px;
   }
   .textContent .fullWidth {
-    margin-top: 1rem;
+    margin-top: .9rem;
   }
 
   .textContent3 {
@@ -1582,6 +1582,12 @@ span.text-content span {
   }
   .textContent3 .fullWidth {
     margin-top: .7rem;
+  }
+  .textContent2 .fullWidth {
+    margin-top: .8rem;
+  }
+  .textContent4 .fullWidth {
+    margin-top: 2.3rem;
   }
 }
 
