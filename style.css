@@ -1585,6 +1585,10 @@ span.text-content span {
   .feast-design h4 {
     width: 200px;
   }
+  .techList2 {
+    font-size: 15px;
+    gap: 2.7rem;
+  }
 
 }
 
