@@ -1593,6 +1593,9 @@ span.text-content span {
   .about-section {
     margin-right: 30px;
   }
+  .btnStyle {
+    width: 180px;
+  }
 }
 
 @media (max-width: 400px) { 
