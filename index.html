@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="icon" href="img/logo (54).png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
@@ -58,7 +59,7 @@
                 <h1 class="description">
                     I enjoy developing and designing websites <br>that are modern and visually appealing.<br> I specialize in Front End Development.<br> Check out some of my projects below!
                 </h1>
-                <div class="buttonColors">
+                <div data-aos="fade-up" data-aos-duration="1500" class="buttonColors">
                     <button class="btnStyle">
                         <a href="Jose Resume.pdf" target="_blank">
                             <i class="fas fa-file-alt"></i>
@@ -306,5 +307,15 @@
            header.classList.toggle('scrolling-active');
        })
    </script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+         AOS.init();
+         AOS.init(
+             {disable: 'mobile'}
+             );
+         AOS.init(
+             {once: true}
+             );
+       </script>
 </body>
 </html>
